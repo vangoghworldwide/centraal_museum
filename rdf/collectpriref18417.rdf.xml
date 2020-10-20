@@ -1,0 +1,2178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <crm:E22_Human-Made_Object rdf:about="https://hdl.handle.net/21.12130/collect.40CE3EE8-2713-42F0-BD77-26616A6521A7">
+    <rdfs:seeAlso rdf:resource="https://vangoghworldwide.org/data/artwork/F884"/>
+    <crm:P2_has_type>
+      <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300033973">
+        <rdfs:label>tekening</rdfs:label>
+      </crm:E55_Type>
+    </crm:P2_has_type>
+    <crm:P1_is_identified_by>
+      <crm:E42_Identifier rdf:about="https://hdl.handle.net/21.12130/collect.40CE3EE8-2713-42F0-BD77-26616A6521A7#identifier">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300312355">
+            <rdfs:label>accession numbers</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P190_has_symbolic_content>21785</crm:P190_has_symbolic_content>
+      </crm:E42_Identifier>
+    </crm:P1_is_identified_by>
+    <crm:P1_is_identified_by>
+      <crm:E42_Identifier rdf:about="https://hdl.handle.net/21.12130/collect.40CE3EE8-2713-42F0-BD77-26616A6521A7#f_number">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="https://vangoghworldwide.org/data/concept/f_number"/>
+        </crm:P2_has_type>
+        <crm:P190_has_symbolic_content>F884</crm:P190_has_symbolic_content>
+      </crm:E42_Identifier>
+    </crm:P1_is_identified_by>
+    <crm:P1_is_identified_by>
+      <crm:E33_E41_Linguistic_Appellation rdf:about="https://hdl.handle.net/21.12130/collect.40CE3EE8-2713-42F0-BD77-26616A6521A7#titel">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300404670">
+            <rdfs:label>primary name</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P190_has_symbolic_content>Jong meisje in een tuin (Harkend meisje)</crm:P190_has_symbolic_content>
+        <crm:P72_has_language>
+          <crm:E56_Language rdf:about="http://vocab.getty.edu/aat/300388256">
+            <rdfs:label>Dutch (language)</rdfs:label>
+          </crm:E56_Language>
+        </crm:P72_has_language>
+      </crm:E33_E41_Linguistic_Appellation>
+    </crm:P1_is_identified_by>
+    <crm:P1_is_identified_by>
+      <crm:E33_E41_Linguistic_Appellation rdf:about="https://hdl.handle.net/21.12130/collect.40CE3EE8-2713-42F0-BD77-26616A6521A7#title">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300404670">
+            <rdfs:label>primary name</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P190_has_symbolic_content>Young girl gardening</crm:P190_has_symbolic_content>
+        <crm:P72_has_language>
+          <crm:E56_Language rdf:about="http://vocab.getty.edu/aat/300388277">
+            <rdfs:label>English (language)</rdfs:label>
+          </crm:E56_Language>
+        </crm:P72_has_language>
+      </crm:E33_E41_Linguistic_Appellation>
+    </crm:P1_is_identified_by>
+    <crm:P52_has_current_owner>
+      <crm:E39_Actor rdf:about="https://data.rkd.nl/artists/493820">
+        <rdfs:label>Centraal Museum</rdfs:label>
+      </crm:E39_Actor>
+    </crm:P52_has_current_owner>
+    <crm:P108i_was_produced_by>
+      <crm:E12_Production rdf:about="https://hdl.handle.net/21.12130/collect.40CE3EE8-2713-42F0-BD77-26616A6521A7#production">
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span>
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1881-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1881-12-31T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://data.rkd.nl/artists/32439">
+            <rdfs:label>Gogh, Vincent van</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E12_Production>
+    </crm:P108i_was_produced_by>
+    <crm:P43_has_dimension>
+      <crm:E54_Dimension>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300055644">
+            <rdfs:label>hoogte (dagmaat)</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">58</crm:P90_has_value>
+        <crm:P91_has_unit>
+          <crm:E58_Measurement_Unit rdf:about="http://vocab.getty.edu/aat/300379098">
+            <rdfs:label>centimeters</rdfs:label>
+          </crm:E58_Measurement_Unit>
+        </crm:P91_has_unit>
+      </crm:E54_Dimension>
+    </crm:P43_has_dimension>
+    <crm:P43_has_dimension>
+      <crm:E54_Dimension>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300055647">
+            <rdfs:label>breedte (dagmaat)</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46</crm:P90_has_value>
+        <crm:P91_has_unit>
+          <crm:E58_Measurement_Unit rdf:about="http://vocab.getty.edu/aat/300379098">
+            <rdfs:label>centimeters</rdfs:label>
+          </crm:E58_Measurement_Unit>
+        </crm:P91_has_unit>
+      </crm:E54_Dimension>
+    </crm:P43_has_dimension>
+    <crm:P43_has_dimension>
+      <crm:E54_Dimension>
+        <crm:P2_has_type>
+          <crm:E55_Type>
+            <rdfs:label>hoogte met lijst</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">72</crm:P90_has_value>
+        <crm:P91_has_unit>
+          <crm:E58_Measurement_Unit rdf:about="http://vocab.getty.edu/aat/300379098">
+            <rdfs:label>centimeters</rdfs:label>
+          </crm:E58_Measurement_Unit>
+        </crm:P91_has_unit>
+      </crm:E54_Dimension>
+    </crm:P43_has_dimension>
+    <crm:P43_has_dimension>
+      <crm:E54_Dimension>
+        <crm:P2_has_type>
+          <crm:E55_Type>
+            <rdfs:label>breedte met lijst</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P90_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</crm:P90_has_value>
+        <crm:P91_has_unit>
+          <crm:E58_Measurement_Unit rdf:about="http://vocab.getty.edu/aat/300379098">
+            <rdfs:label>centimeters</rdfs:label>
+          </crm:E58_Measurement_Unit>
+        </crm:P91_has_unit>
+      </crm:E54_Dimension>
+    </crm:P43_has_dimension>
+    <crm:P46_is_composed_of>
+      <crm:E22_Human-Made_Object>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300014844">
+            <rdfs:label>supports</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P45_consists_of>
+          <crm:E57_Material rdf:about="http://vocab.getty.edu/aat/300014109">
+            <rdfs:label>papier</rdfs:label>
+          </crm:E57_Material>
+        </crm:P45_consists_of>
+      </crm:E22_Human-Made_Object>
+    </crm:P46_is_composed_of>
+    <crm:P45_consists_of>
+      <crm:E57_Material rdf:about="http://vocab.getty.edu/aat/300014657">
+        <rdfs:label>krijt</rdfs:label>
+      </crm:E57_Material>
+    </crm:P45_consists_of>
+    <crm:P45_consists_of>
+      <crm:E57_Material rdf:about="http://vocab.getty.edu/aat/300015045">
+        <rdfs:label>aquarel</rdfs:label>
+      </crm:E57_Material>
+    </crm:P45_consists_of>
+    <crm:P138i_has_representation>
+      <crm:E36_Visual_Item rdf:about="https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&amp;server=images&amp;value=OBJECTEN/Xbestanden/gecropt/X21785_01.tif">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300215302">
+            <rdfs:label>digital images</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300404450">
+            <rdfs:label>primary (general designation)</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <dc:format>image/tiff</dc:format>
+      </crm:E36_Visual_Item>
+    </crm:P138i_has_representation>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>cat. nr. 10</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/875">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/875#title">
+                <crm:P190_has_symbolic_content>Aquarellen en tekeningen</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/875#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/875#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1952-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1952-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/875#publicationplace-1">
+                    <rdfs:label>Amsterdam</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>cat. nr. 12, afb. tegenover p. 4</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/2690">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/2690#title">
+                <crm:P190_has_symbolic_content>Collectie Van Baaren [1966]</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/2690#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/2690#creator-1">
+                    <rdfs:label>Baart, A.</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/2690#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/2690#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1966-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1966-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/2690#publicationplace-1">
+                    <rdfs:label>[Gouda</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>cat. nr. 33</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/2691">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/2691#title">
+                <crm:P190_has_symbolic_content>De Collectie Van Baaren [1976]</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/2691#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/2691#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1976-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1976-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/2691#publicationplace-1">
+                    <rdfs:label>Utrecht</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>cat. nr. 8, pp. 30-31, met afb.</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/3015">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/3015#title">
+                <crm:P190_has_symbolic_content>Daubigny, Van Doesburg, Daniëls ... en 88 andere hoogtepunten uit de collectie moderne kunst van het Centraal Museum</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/3015#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/3015#creator-1">
+                    <rdfs:label>Blotkamp, Carel</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/3015#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/3015#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1987-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1987-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/3015#publicationplace-1">
+                    <rdfs:label>Utrecht</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/3015#publicationplace-1">
+                    <rdfs:label>Antwerpen</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>p. 242-243, cat. nr. 66, met afb.</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/3049">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/3049#title">
+                <crm:P190_has_symbolic_content>De collectie Van Baaren</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/3049#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/3049#creator-1">
+                    <rdfs:label>Adrichem, Jan van</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/3049#creator-2">
+                    <rdfs:label>Vergeest, Aukje</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/3049#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/3049#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/3049#publicationplace-1">
+                    <rdfs:label>Utrecht</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>cat. nr. 12, met afb.; p. 14, nr. 9</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/2688">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/2688#title">
+                <crm:P190_has_symbolic_content>Collectie Van Baaren : gids van het Museum Van Baaren</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/2688#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/2688#creator-1">
+                    <rdfs:label>Offerhaus, J.</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/2688#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/2688#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1967-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1967-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/2688#publicationplace-1">
+                    <rdfs:label>Utrecht</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>pp. 57-58, 67, 408</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/5733">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/5733#title">
+                <crm:P190_has_symbolic_content>De Hollandsche periode (1880-1885) in het werk van Vincent van Gogh (1853-1890)</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/5733#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/5733#creator-1">
+                    <rdfs:label>Vanbeselaere, Walther</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/5733#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/5733#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1937-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1937-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/5733#publicationplace-1">
+                    <rdfs:label>Amsterdam/Antwerpen</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>p. 399, afb. 117 in kleur; p. 459</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/6015">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/6015#title">
+                <crm:P190_has_symbolic_content>L' impressionismo e l'età di Van Gogh</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/6015#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/6015#creator-1">
+                    <rdfs:label>Goldin, Marco</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/6015#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/6015#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/6015#publicationplace-1">
+                    <rdfs:label>Conegliano</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>p. 24, cat. nr. 57, met afb.</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/9544">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/9544#title">
+                <crm:P190_has_symbolic_content>The new complete Van Gogh : paintings, drawings, sketches</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/9544#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/9544#creator-1">
+                    <rdfs:label>Hulsker, Jan</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/9544#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/9544#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1996-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/9544#publicationplace-1">
+                    <rdfs:label>Amsterdam</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/9544#publicationplace-1">
+                    <rdfs:label>Philadelphia</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>deel III: p. 15, nr. 884; deel IV: p. XV, afb.</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/9823">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/9823#title">
+                <crm:P190_has_symbolic_content>L'oeuvre de Vincent van Gogh. Catalogue raisonné</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/9823#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/9823#creator-1">
+                    <rdfs:label>Baart de la Faille, J.</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/9823#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/9823#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1928-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1928-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/9823#publicationplace-1">
+                    <rdfs:label>Parijs</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/9823#publicationplace-1">
+                    <rdfs:label>Brussel</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>p. 22</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/13338">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/13338#title">
+                <crm:P190_has_symbolic_content>Van Gogh door Van Gogh : De brieven als commentaar op zijn werk</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/13338#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/13338#creator-1">
+                    <rdfs:label>Hulsker, Jan</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/13338#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/13338#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1973-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1973-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/13338#publicationplace-1">
+                    <rdfs:label>Amsterdam</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>nr. 57, p. 24, met afb.</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/13341">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/13341#title">
+                <crm:P190_has_symbolic_content>Van Gogh en zijn weg : Het complete werk</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/13341#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/13341#creator-1">
+                    <rdfs:label>Hulsker, Jan</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/13341#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/13341#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/13341#publicationplace-1">
+                    <rdfs:label>Amsterdam</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>p. 116, afb. 81</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/13344">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/13344#title">
+                <crm:P190_has_symbolic_content>Van Gogh in Etten</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/13344#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/13344#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/13344#publicationplace-1">
+                    <rdfs:label>Etten-Leur</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>pp. 28-29, met afb. 2</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/200001829">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/200001829#title">
+                <crm:P190_has_symbolic_content>Van Goghs expressieve onhandigheid</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/200001829#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/200001829#creator-1">
+                    <rdfs:label>Rummens, Maurice</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300048715">
+                <rdfs:label>articles</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P106i_forms_part_of>
+              <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/200001829#journal">
+                <crm:P1_is_identified_by>
+                  <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/200001829#journaltitle">
+                    <crm:P190_has_symbolic_content>Jong Holland</crm:P190_has_symbolic_content>
+                  </crm:E33_E41_Linguistic_Appellation>
+                </crm:P1_is_identified_by>
+              </crm:E33_Linguistic_Object>
+            </crm:P106i_forms_part_of>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/200001829#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/200001829#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1994-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>pp. 34, 44</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/13681">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/13681#title">
+                <crm:P190_has_symbolic_content>Vincent van Gogh : A guide to his work and letters</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/13681#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/13681#creator-1">
+                    <rdfs:label>Hulsker, Jan</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/13681#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/13681#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/13681#publicationplace-1">
+                    <rdfs:label>[Amsterdam]</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/13681#publicationplace-1">
+                    <rdfs:label>Amsterdam</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>cat. nr. 13, p. 59, met afb. in kleur</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/13688">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/13688#title">
+                <crm:P190_has_symbolic_content>Vincent van Gogh : tekeningen</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/13688#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/13688#creator-1">
+                    <rdfs:label>Wolk, Johannes van der</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/13688#creator-2">
+                    <rdfs:label>Pickvance, Ronald</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/13688#creator-3">
+                    <rdfs:label>Pey, E.B.F.</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/13688#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/13688#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/13688#publicationplace-1">
+                    <rdfs:label>Milaan</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/13688#publicationplace-1">
+                    <rdfs:label>Rome</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>afb. 9</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/13690">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/13690#title">
+                <crm:P190_has_symbolic_content>Vincent van Gogh : Zeichnungen</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/13690#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/13690#creator-1">
+                    <rdfs:label>Uitert, Evert van</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/13690#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/13690#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1977-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1977-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/13690#publicationplace-1">
+                    <rdfs:label>Keulen</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>cat. nr. 4, met afb.</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/13693">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/13693#title">
+                <crm:P190_has_symbolic_content>Vincent van Gogh 1853-1890 : Aquarelles &amp; dessins de l'époque 1881-1885 provenant de collections particulières néerlandaises</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/13693#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/13693#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1961-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1961-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/13693#publicationplace-1">
+                    <rdfs:label>Amsterdam</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>cat. nr. 1, met afb.</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/13694">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/13694#title">
+                <crm:P190_has_symbolic_content>Vincent van Gogh 1853-1890 : Quelques oeuvres de l'époque 1881-1886 provenant de collections particulières néerlandaises</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/13694#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/13694#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1956-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1956-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/13694#publicationplace-1">
+                    <rdfs:label>Amsterdam</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>p. 19</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/200001865">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/200001865#title">
+                <crm:P190_has_symbolic_content>Vincent van Gogh en 's-Gravenhage</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/200001865#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/200001865#creator-1">
+                    <rdfs:label>Visser, W.J.A.</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300048715">
+                <rdfs:label>articles</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P106i_forms_part_of>
+              <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/200001865#journal">
+                <crm:P1_is_identified_by>
+                  <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/200001865#journaltitle">
+                    <crm:P190_has_symbolic_content>Jaarboek Die Haghe</crm:P190_has_symbolic_content>
+                  </crm:E33_E41_Linguistic_Appellation>
+                </crm:P1_is_identified_by>
+              </crm:E33_Linguistic_Object>
+            </crm:P106i_forms_part_of>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/200001865#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/200001865#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1973-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1973-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>pp. 328-329, nr. f 884, met afb.; p. 645</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/14350">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/14350#title">
+                <crm:P190_has_symbolic_content>The Works of Vincent van Gogh : His Paintings and Drawings</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/14350#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/14350#creator-1">
+                    <rdfs:label>Faille, J.B. de la</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/14350#creator-2">
+                    <rdfs:label>Hammacher, A.M.</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/14350#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/14350#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1970-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1970-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/14350#publicationplace-1">
+                    <rdfs:label>Amsterdam</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>p. 28, nr. 1, met afb. in kleur</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/14902">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/14902#title">
+                <crm:P190_has_symbolic_content>Van Gogh, Millet and the Barbizon Artists</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/14902#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/14902#creator-1">
+                    <rdfs:label>Fukaya, Katsunori</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/14902#creator-2">
+                    <rdfs:label>Yasui, Hiroo</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/14902#creator-3">
+                    <rdfs:label>Furutani, Yoshiyuki</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/14902#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/14902#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/14902#publicationplace-1">
+                    <rdfs:label>[S.l]</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content/>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/16024">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/16024#title">
+                <crm:P190_has_symbolic_content>Dagboek van Van Gogh</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/16024#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/16024#creator-1">
+                    <rdfs:label>Hulsker, Jan</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/16024#creator-2">
+                    <rdfs:label>Gogh, Vincent van</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/16024#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/16024#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/16024#publicationplace-1">
+                    <rdfs:label>Amsterdam</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>p. 30, afb. in kleur; p. 310, cat. nr. 2, met afb.</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/16249">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/16249#title">
+                <crm:P190_has_symbolic_content>Gauguin Van Gogh : L'avventura del colore nuovo</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/16249#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/16249#creator-1">
+                    <rdfs:label>Goldin, Marco</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/16249#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/16249#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/16249#publicationplace-1">
+                    <rdfs:label>Milano</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P67i_is_referred_to_by>
+      <crm:E33_Linguistic_Object>
+        <crm:P67i_is_referred_to_by>
+          <crm:E33_Linguistic_Object>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300435440">
+                <rdfs:label>Pagination Statement</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P190_has_symbolic_content>p. 40, met afb. in kleur</crm:P190_has_symbolic_content>
+          </crm:E33_Linguistic_Object>
+        </crm:P67i_is_referred_to_by>
+        <crm:P106i_forms_part_of>
+          <crm:E33_Linguistic_Object rdf:about="https://centraalmuseum.nl/documentation/26724">
+            <crm:P1_is_identified_by>
+              <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/documentation/26724#title">
+                <crm:P190_has_symbolic_content>Jong in de 19e eeuw : Het kind in de Nederlandse 19e-eeuwse kunst</crm:P190_has_symbolic_content>
+              </crm:E33_E41_Linguistic_Appellation>
+            </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/26724#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/26724#creator-1">
+                    <rdfs:label>Baggerman, Arianne</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/26724#creator-2">
+                    <rdfs:label>Dekker, Rudolf</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/26724#creator-3">
+                    <rdfs:label>Plomp, Michiel</rdfs:label>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
+            <crm:P2_has_type>
+              <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
+                <rdfs:label>books</rdfs:label>
+              </crm:E55_Type>
+            </crm:P2_has_type>
+            <crm:P16i_was_used_for>
+              <crm:E7_Activity rdf:about="https://centraalmuseum.nl/documentation/26724#publication">
+                <crm:P2_has_type>
+                  <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054686">
+                    <rdfs:label>Publishing</rdfs:label>
+                  </crm:E55_Type>
+                </crm:P2_has_type>
+                <crm:P4_has_time-span>
+                  <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/documentation/26724#publicationdate">
+                    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-01T00:00:00</crm:P82a_begin_of_the_begin>
+                    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-12-31T23:59:59</crm:P82b_end_of_the_end>
+                  </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/26724#publicationplace-1">
+                    <rdfs:label>Haarlem</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+                <crm:P7_took_place_at>
+                  <crm:E53_Place rdf:about="https://centraalmuseum.nl/documentation/26724#publicationplace-1">
+                    <rdfs:label>Bussum</rdfs:label>
+                  </crm:E53_Place>
+                </crm:P7_took_place_at>
+              </crm:E7_Activity>
+            </crm:P16i_was_used_for>
+          </crm:E33_Linguistic_Object>
+        </crm:P106i_forms_part_of>
+      </crm:E33_Linguistic_Object>
+    </crm:P67i_is_referred_to_by>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/16251-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/16251-1#title">
+            <crm:P190_has_symbolic_content>Kinderen eerst! Het kind in de Nederlandse, 19de eeuwse kunst</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/16251-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-06T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-05T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/16251-1#place">
+            <rdfs:label>Haarlem</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/16251-1#venue">
+            <rdfs:label>Teylers Museum</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/15305-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/15305-1#title">
+            <crm:P190_has_symbolic_content>Friction of Ideas: Gauguin, Van Gogh, Bernard…</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/15305-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-19T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-10-19T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/15305-1#place">
+            <rdfs:label>Göteborg</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/15305-1#venue">
+            <rdfs:label>Göteborgs Konstmuseum</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/15024-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/15024-1#title">
+            <crm:P190_has_symbolic_content>Van Gogh aan het werk</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/15024-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-01T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-13T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/15024-1#place">
+            <rdfs:label>Amsterdam</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/15024-1#venue">
+            <rdfs:label>Van Gogh Museum</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/14000-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/14000-1#title">
+            <crm:P190_has_symbolic_content>Werken op papier uit de collectie Van Baaren</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/14000-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-11-20T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-15T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/14000-1#place">
+            <rdfs:label>Utrecht</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/14000-1#venue">
+            <rdfs:label>Centraal Museum</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/10357-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/10357-1#title">
+            <crm:P190_has_symbolic_content>Gauguin Van Gogh. L'avventura del colore nuovo</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/10357-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-21T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-03-26T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/10357-1#place">
+            <rdfs:label>Brescia</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/10357-1#venue">
+            <rdfs:label>Museo di Santa Giulia</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/10521-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/10521-1#title">
+            <crm:P190_has_symbolic_content>Van Gogh, Millet and the Barbizon Artists</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/10521-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-06-22T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-08-15T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/10521-1#place">
+            <rdfs:label>Morioka</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/10521-1#venue">
+            <rdfs:label>Iwate Museum of Art</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/10325-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/10325-1#title">
+            <crm:P190_has_symbolic_content>Van Gogh, Millet and the Barbizon Artists</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/10325-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-17T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-06-13T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/10325-1#place">
+            <rdfs:label>Nagoya</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/10325-1#venue">
+            <rdfs:label>Nagoya City Art Museum</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/8342-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/8342-1#title">
+            <crm:P190_has_symbolic_content>L'impressionismo e l'età di Van Gogh</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/8342-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-11-09T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"/>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/8342-1#place">
+            <rdfs:label>Treviso</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/8342-1#venue">
+            <rdfs:label>Casa dei Carraresi</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/8851-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/8851-1#title">
+            <crm:P190_has_symbolic_content>De particuliere kunstcollectie Van Baaren. Van Barbizon en Haagse School tot Charley Toorop en Carel Willink</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/8851-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-06-17T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1995-09-10T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/8851-1#place">
+            <rdfs:label>Utrecht</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/8851-1#venue">
+            <rdfs:label>Centraal Museum</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/8828-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/8828-1#title">
+            <crm:P190_has_symbolic_content>Alles wat aesthetisch boeit</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/8828-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-09-18T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-11-07T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/8828-1#place">
+            <rdfs:label>Utrecht</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/8828-1#venue">
+            <rdfs:label>Centraal Museum</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/4612-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/4612-1#title">
+            <crm:P190_has_symbolic_content>Alles wat aesthetisch boeit</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/4612-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-06-19T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1993-08-29T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/4612-1#place">
+            <rdfs:label>Heino</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/4612-1#venue">
+            <rdfs:label>Kasteel Het Nijenhuis (Hannema-de Stuers Fundatie)</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/6852-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/6852-1#title">
+            <crm:P190_has_symbolic_content>Vincent van Gogh 1990</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/6852-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-03-29T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1990-07-31T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/6852-1#place">
+            <rdfs:label>Otterlo</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/6852-1#venue">
+            <rdfs:label>Rijksmuseum Kröller-Müller</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/8619-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/8619-1#title">
+            <crm:P190_has_symbolic_content>Collectie Van Baaren</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/8619-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1976-05-20T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1976-09-15T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/8619-1#place">
+            <rdfs:label>Utrecht</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/8619-1#venue">
+            <rdfs:label>Centraal Museum</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/4080-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/4080-1#title">
+            <crm:P190_has_symbolic_content>Collectie Van Baaren</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/4080-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1966-06-04T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1966-10-02T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/4080-1#place">
+            <rdfs:label>Gouda</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/4080-1#venue">
+            <rdfs:label>Stedelijk Museum Het Catharina Gasthuis</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/620-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/620-1#title">
+            <crm:P190_has_symbolic_content>Vincent van Gogh 1853-1890. Aquarelles &amp; dessins de l'époque 1881-1885 provenant de collections particulières néerlandaises</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/620-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1961-04-19T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1961-05-18T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/620-1#place">
+            <rdfs:label>Amsterdam</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/620-1#venue">
+            <rdfs:label>Kunsthandel E.J. van Wisselingh &amp; Co</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/618-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/618-1#title">
+            <crm:P190_has_symbolic_content>Vincent van Gogh 1853-1890. Quelques oeuvres de l'époque 1881-1886 provenant de collections particulières néerlandaises</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/618-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1956-02-20T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1956-03-17T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/618-1#place">
+            <rdfs:label>Amsterdam</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/618-1#venue">
+            <rdfs:label>Kunsthandel E.J. van Wisselingh &amp; Co</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+    <crm:P16i_was_used_for>
+      <crm:E7_Activity rdf:about="https://centraalmuseum.nl/exhibition/656-1">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300054766">
+            <rdfs:label>exhibitions</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+          <crm:E33_E41_Linguistic_Appellation rdf:about="https://centraalmuseum.nl/exhibition/656-1#title">
+            <crm:P190_has_symbolic_content>Tentoonstelling van Aquarellen en Tekeningen</crm:P190_has_symbolic_content>
+          </crm:E33_E41_Linguistic_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P4_has_time-span>
+          <crm:E52_Time-Span rdf:about="https://centraalmuseum.nl/exhibition/656-1#date">
+            <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1952-10-06T00:00:00</crm:P82a_begin_of_the_begin>
+            <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1952-11-15T23:59:59</crm:P82b_end_of_the_end>
+          </crm:E52_Time-Span>
+        </crm:P4_has_time-span>
+        <crm:P7_took_place_at>
+          <crm:E53_Place rdf:about="https://centraalmuseum.nl/exhibition/656-1#place">
+            <rdfs:label>Amsterdam</rdfs:label>
+          </crm:E53_Place>
+        </crm:P7_took_place_at>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor rdf:about="https://centraalmuseum.nl/exhibition/656-1#venue">
+            <rdfs:label>Kunsthandel Huinck &amp; Scherjon</rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+      </crm:E7_Activity>
+    </crm:P16i_was_used_for>
+  </crm:E22_Human-Made_Object>
+  <crm:E22_Human-Made_Object rdf:about="https://centraalmuseum.nl/plaatje-2">
+    <crm:P2_has_type>
+      <crm:E55_Type>
+        <rdfs:label>normal lighting</rdfs:label>
+      </crm:E55_Type>
+    </crm:P2_has_type>
+    <crm:P108i_was_produced_by>
+      <crm:E12_Production rdf:about="https://centraalmuseum.nl/plaatje-2#production">
+        <crm:P16_used_specific_object>
+          <crm:E22_Human-Made_Object rdf:about="https://hdl.handle.net/21.12130/collect.40CE3EE8-2713-42F0-BD77-26616A6521A7"/>
+        </crm:P16_used_specific_object>
+      </crm:E12_Production>
+    </crm:P108i_was_produced_by>
+    <crm:P138i_has_representation>
+      <crm:E36_Visual_Item rdf:about="https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&amp;server=images&amp;value=OBJECTEN/Xbestanden/gecropt/X21785_02.tif">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300215302">
+            <rdfs:label>digital images</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <dc:format>image/tiff</dc:format>
+      </crm:E36_Visual_Item>
+    </crm:P138i_has_representation>
+  </crm:E22_Human-Made_Object>
+</rdf:RDF>
+  
+
