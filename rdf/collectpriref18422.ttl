@@ -1231,7 +1231,7 @@
     a crm:E39_Actor ;
     rdfs:label "Centraal Museum" .
 
-<https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X21790_01.tif>
+<https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X21790.tif>
     dc:format "image/tiff" ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300215302>, <http://vocab.getty.edu/aat/300404450> ;
     a crm:E36_Visual_Item .
@@ -1246,7 +1246,7 @@
 
 <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1>
     crm:P108i_was_produced_by <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#production> ;
-    crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X21790_01.tif> ;
+    crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X21790.tif> ;
     crm:P16i_was_used_for <https://centraalmuseum.nl/exhibition/10325-1>, <https://centraalmuseum.nl/exhibition/10357-1>, <https://centraalmuseum.nl/exhibition/10521-1>, <https://centraalmuseum.nl/exhibition/10522-1>, <https://centraalmuseum.nl/exhibition/12809-1>, <https://centraalmuseum.nl/exhibition/15305-1>, <https://centraalmuseum.nl/exhibition/3083-1>, <https://centraalmuseum.nl/exhibition/3819-1>, <https://centraalmuseum.nl/exhibition/4080-1>, <https://centraalmuseum.nl/exhibition/4453-1>, <https://centraalmuseum.nl/exhibition/618-1>, <https://centraalmuseum.nl/exhibition/625-1>, <https://centraalmuseum.nl/exhibition/630-1>, <https://centraalmuseum.nl/exhibition/634-1>, <https://centraalmuseum.nl/exhibition/656-1>, <https://centraalmuseum.nl/exhibition/8342-1>, <https://centraalmuseum.nl/exhibition/8827-1>, <https://centraalmuseum.nl/exhibition/8851-1> ;
     crm:P1_is_identified_by <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#f_number>, <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#identifier>, <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#titel>, <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300033973> ;
