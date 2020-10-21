@@ -155,6 +155,21 @@
         <rdfs:label>krijt</rdfs:label>
       </crm:E57_Material>
     </crm:P45_consists_of>
+    <crm:P138i_has_representation>
+      <crm:E36_Visual_Item rdf:about="https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&amp;server=images&amp;value=OBJECTEN/Xbestanden/gecropt/X21790_01.tif">
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300215302">
+            <rdfs:label>digital images</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P2_has_type>
+          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300404450">
+            <rdfs:label>primary (general designation)</rdfs:label>
+          </crm:E55_Type>
+        </crm:P2_has_type>
+        <dc:format>image/tiff</dc:format>
+      </crm:E36_Visual_Item>
+    </crm:P138i_has_representation>
     <crm:P67i_is_referred_to_by>
       <crm:E33_Linguistic_Object>
         <crm:P67i_is_referred_to_by>
@@ -1946,30 +1961,6 @@
         </crm:P14_carried_out_by>
       </crm:E7_Activity>
     </crm:P16i_was_used_for>
-  </crm:E22_Human-Made_Object>
-  <crm:E22_Human-Made_Object rdf:about="https://centraalmuseum.nl/plaatje-1">
-    <crm:P2_has_type>
-      <crm:E55_Type>
-        <rdfs:label>normal lighting</rdfs:label>
-      </crm:E55_Type>
-    </crm:P2_has_type>
-    <crm:P108i_was_produced_by>
-      <crm:E12_Production rdf:about="https://centraalmuseum.nl/plaatje-1#production">
-        <crm:P16_used_specific_object>
-          <crm:E22_Human-Made_Object rdf:about="https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1"/>
-        </crm:P16_used_specific_object>
-      </crm:E12_Production>
-    </crm:P108i_was_produced_by>
-    <crm:P138i_has_representation>
-      <crm:E36_Visual_Item rdf:about="https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&amp;server=images&amp;value=OBJECTEN/Xbestanden/gecropt/X21790.tif">
-        <crm:P2_has_type>
-          <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300215302">
-            <rdfs:label>digital images</rdfs:label>
-          </crm:E55_Type>
-        </crm:P2_has_type>
-        <dc:format>image/tiff</dc:format>
-      </crm:E36_Visual_Item>
-    </crm:P138i_has_representation>
   </crm:E22_Human-Made_Object>
 </rdf:RDF>
   
