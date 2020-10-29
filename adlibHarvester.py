@@ -97,7 +97,7 @@ while (numberFound > (page * limit)):
                "&search=priref=" + priref + \
                "&XMLtype=" + xmltype
 
-#            print(requestUrl)
+            print(requestUrl)
             log.writerow((priref, modification, requestUrl))
             result = urllib.request.urlopen(requestUrl)
             adlibXML = result.read()
