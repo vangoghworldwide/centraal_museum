@@ -44,6 +44,10 @@
     a crm:E55_Type ;
     rdfs:label "breedte" .
 
+<http://vocab.getty.edu/aat/300055863>
+    a crm:E55_Type ;
+    rdfs:label "Provenance Entry" .
+
 <http://vocab.getty.edu/aat/300215302>
     a crm:E55_Type ;
     rdfs:label "digital images" .
@@ -75,6 +79,38 @@
 <http://vocab.getty.edu/aat/300435440>
     a crm:E55_Type ;
     rdfs:label "Pagination Statement" .
+
+<https://centraalmuseum.nl/acquisition/1>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Bremmer, H.P. [dr.]"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/2>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Gogh-Bonger, Jo van"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/3>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Beer Poortugael, jhr. Anton Willem den"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/4>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA> ;
+    a crm:E8_Acquisition .
 
 <https://centraalmuseum.nl/documentation/10049>
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/10049#publication> ;
@@ -350,7 +386,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/13694#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/13694#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/13694#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/13694#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/13694#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/13694#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/13694#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -722,12 +767,17 @@
 <https://centraalmuseum.nl/documentation/25017#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
     crm:P4_has_time-span <https://centraalmuseum.nl/documentation/25017#publicationdate> ;
+    crm:P7_took_place_at <https://centraalmuseum.nl/documentation/25017#publicationplace-1> ;
     a crm:E7_Activity .
 
 <https://centraalmuseum.nl/documentation/25017#publicationdate>
     crm:P82a_begin_of_the_begin "2017-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     crm:P82b_end_of_the_end "2017-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     a crm:E52_Time-Span .
+
+<https://centraalmuseum.nl/documentation/25017#publicationplace-1>
+    a crm:E53_Place ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/25017#title>
     crm:P190_has_symbolic_content "Van Gogh : Tra il grano e il cielo" ;
@@ -839,7 +889,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/2691#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/2691#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/2691#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/2691#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/2691#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/2691#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/2691#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1876,6 +1935,62 @@
 <https://centraalmuseum.nl/plaatje-2#production>
     crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA> ;
     a crm:E12_Production .
+
+<https://centraalmuseum.nl/provenance/1>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Bremmer, H.P. [dr.]"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1905-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1905-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/1> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/2>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Gogh-Bonger, Jo van"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/2> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/3>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Beer Poortugael, jhr. Anton Willem den"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/3> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/4>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1955-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1955-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/4> ;
+    a crm:E7_Activity .
 
 <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X21784_01.tif>
     dc:format "image/tiff" ;

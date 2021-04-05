@@ -44,6 +44,10 @@
     a crm:E55_Type ;
     rdfs:label "breedte" .
 
+<http://vocab.getty.edu/aat/300055863>
+    a crm:E55_Type ;
+    rdfs:label "Provenance Entry" .
+
 <http://vocab.getty.edu/aat/300215302>
     a crm:E55_Type ;
     rdfs:label "digital images" .
@@ -75,6 +79,38 @@
 <http://vocab.getty.edu/aat/300435440>
     a crm:E55_Type ;
     rdfs:label "Pagination Statement" .
+
+<https://centraalmuseum.nl/acquisition/1>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie d'Art A. Schuffenecker"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/2>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie d'Art E. Blot"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/3>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie Charles Vincent, Parijs"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/4>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
+    a crm:E8_Acquisition .
 
 <https://centraalmuseum.nl/documentation/10049>
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/10049#publication> ;
@@ -210,7 +246,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/12499#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/12499#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/12499#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/12499#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/12499#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/12499#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/12499#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -235,7 +280,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/12511#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/12511#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/12511#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/12511#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/12511#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/12511#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/12511#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -412,7 +466,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/13694#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/13694#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/13694#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/13694#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/13694#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/13694#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/13694#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -777,7 +840,7 @@
 
 <https://centraalmuseum.nl/documentation/23917#publicationplace-1>
     a crm:E53_Place ;
-    rdfs:label "Milaan" .
+    rdfs:label "", "Milaan" .
 
 <https://centraalmuseum.nl/documentation/23917#title>
     crm:P190_has_symbolic_content "Van Gogh : The man and the earth" ;
@@ -981,7 +1044,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/2691#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/2691#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/2691#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/2691#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/2691#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/2691#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/2691#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -2046,8 +2118,8 @@
     a crm:E7_Activity .
 
 <https://centraalmuseum.nl/exhibition/637-1#date>
-    crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    crm:P82a_begin_of_the_begin "1935-35-05T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    crm:P82b_end_of_the_end "1935-35-06T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     a crm:E52_Time-Span .
 
 <https://centraalmuseum.nl/exhibition/637-1#place>
@@ -2197,7 +2269,7 @@
 
 <https://centraalmuseum.nl/exhibition/8342-1#date>
     crm:P82a_begin_of_the_begin "2002-11-09T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    crm:P82b_end_of_the_end "2003-20-3)T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     a crm:E52_Time-Span .
 
 <https://centraalmuseum.nl/exhibition/8342-1#place>
@@ -2375,6 +2447,62 @@
 <https://centraalmuseum.nl/plaatje-4#production>
     crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
     a crm:E12_Production .
+
+<https://centraalmuseum.nl/provenance/1>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie d'Art A. Schuffenecker"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/1> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/2>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie d'Art E. Blot"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/2> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/3>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie Charles Vincent, Parijs"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/3> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/4>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/4> ;
+    a crm:E7_Activity .
 
 <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X22123_01.tif>
     dc:format "image/tiff" ;

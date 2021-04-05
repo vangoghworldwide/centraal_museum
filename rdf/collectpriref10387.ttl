@@ -48,6 +48,10 @@
     a crm:E55_Type ;
     rdfs:label "breedte" .
 
+<http://vocab.getty.edu/aat/300055863>
+    a crm:E55_Type ;
+    rdfs:label "Provenance Entry" .
+
 <http://vocab.getty.edu/aat/300215302>
     a crm:E55_Type ;
     rdfs:label "digital images" .
@@ -79,6 +83,78 @@
 <http://vocab.getty.edu/aat/300435440>
     a crm:E55_Type ;
     rdfs:label "Pagination Statement" .
+
+<https://centraalmuseum.nl/acquisition/1>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Gogh-Carbentus, A.C. van, Nuenen/Breda"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/2>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Schrauwen"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/3>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Couvreur, J.C., Breda"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/4>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Bakel, W. van en C. Mouwen, Breda"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/5>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Ribbius Peletier, G."
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/6>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Ribbius Peletier-Wijbelingh, A.L."
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/7>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Ubbens-Ribbius Peletier, mevr. A.L."
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/8>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Ubbens-Ribbius Peletier, mevr. A.L., de erven van"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/9>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Centraal Museum"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E8_Acquisition .
 
 <https://centraalmuseum.nl/documentation/11682>
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/11682#publication> ;
@@ -240,12 +316,17 @@
 <https://centraalmuseum.nl/documentation/13680#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
     crm:P4_has_time-span <https://centraalmuseum.nl/documentation/13680#publicationdate> ;
+    crm:P7_took_place_at <https://centraalmuseum.nl/documentation/13680#publicationplace-1> ;
     a crm:E7_Activity .
 
 <https://centraalmuseum.nl/documentation/13680#publicationdate>
     crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     a crm:E52_Time-Span .
+
+<https://centraalmuseum.nl/documentation/13680#publicationplace-1>
+    a crm:E53_Place ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/13680#title>
     crm:P190_has_symbolic_content "Vincent van Gogh : 40 Photocollographies d'après ses tableaux et dessins" ;
@@ -1381,7 +1462,7 @@
 
 <https://centraalmuseum.nl/documentation/7775#publicationplace-1>
     a crm:E53_Place ;
-    rdfs:label "Utrecht" .
+    rdfs:label "", "Utrecht" .
 
 <https://centraalmuseum.nl/documentation/7775#title>
     crm:P190_has_symbolic_content "Het landschap : vijf eeuwen meesters van de landschapsschilderkunst uit de collectie van het Centraal Museum" ;
@@ -2047,6 +2128,31 @@
     a crm:E39_Actor ;
     rdfs:label "Tate Britain" .
 
+<https://centraalmuseum.nl/exhibition/16254-1>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/exhibition/16254-1#venue> ;
+    crm:P1_is_identified_by <https://centraalmuseum.nl/exhibition/16254-1#title> ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+    crm:P4_has_time-span <https://centraalmuseum.nl/exhibition/16254-1#date> ;
+    crm:P7_took_place_at <https://centraalmuseum.nl/exhibition/16254-1#place> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/exhibition/16254-1#date>
+    crm:P82a_begin_of_the_begin "2020-10-10T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    crm:P82b_end_of_the_end "2021-06-06T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    a crm:E52_Time-Span .
+
+<https://centraalmuseum.nl/exhibition/16254-1#place>
+    a crm:E53_Place ;
+    rdfs:label "Padua" .
+
+<https://centraalmuseum.nl/exhibition/16254-1#title>
+    crm:P190_has_symbolic_content "Van Gogh. The colours of life" ;
+    a crm:E33_E41_Linguistic_Appellation .
+
+<https://centraalmuseum.nl/exhibition/16254-1#venue>
+    a crm:E39_Actor ;
+    rdfs:label "Centro Culturale Altinate San Gaetano" .
+
 <https://centraalmuseum.nl/exhibition/2244-1>
     crm:P14_carried_out_by <https://centraalmuseum.nl/exhibition/2244-1#venue> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/exhibition/2244-1#title> ;
@@ -2282,7 +2388,7 @@
 
 <https://centraalmuseum.nl/exhibition/8342-1#date>
     crm:P82a_begin_of_the_begin "2002-11-09T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    crm:P82b_end_of_the_end "2003-20-3)T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     a crm:E52_Time-Span .
 
 <https://centraalmuseum.nl/exhibition/8342-1#place>
@@ -2486,6 +2592,132 @@
     crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
     a crm:E12_Production .
 
+<https://centraalmuseum.nl/provenance/1>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Gogh-Carbentus, A.C. van, Nuenen/Breda"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1885-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1885-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/1> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/2>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Schrauwen"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1886-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1886-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/2> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/3>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Couvreur, J.C., Breda"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1902-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1902-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/3> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/4>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Bakel, W. van en C. Mouwen, Breda"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1902-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1902-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/4> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/5>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Ribbius Peletier, G."
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1904-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1904-07-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/5> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/6>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Ribbius Peletier-Wijbelingh, A.L."
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1930-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1930-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/6> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/7>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Ubbens-Ribbius Peletier, mevr. A.L."
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1939-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1939-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/7> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/8>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Ubbens-Ribbius Peletier, mevr. A.L., de erven van"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1961-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1961-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/8> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/9>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Centraal Museum"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1963-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1963-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/9> ;
+    a crm:E7_Activity .
+
 <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/INVENTARISNUMMERS/gecropt/13968_07.tif>
     dc:format "image/tiff" ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300215302> ;
@@ -2517,7 +2749,7 @@
 <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114>
     crm:P108i_was_produced_by <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#production> ;
     crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X13968_01.tif> ;
-    crm:P16i_was_used_for <https://centraalmuseum.nl/exhibition/10325-1>, <https://centraalmuseum.nl/exhibition/10357-1>, <https://centraalmuseum.nl/exhibition/10521-1>, <https://centraalmuseum.nl/exhibition/10522-1>, <https://centraalmuseum.nl/exhibition/10711-1>, <https://centraalmuseum.nl/exhibition/11026-1>, <https://centraalmuseum.nl/exhibition/12383-1>, <https://centraalmuseum.nl/exhibition/13095-1>, <https://centraalmuseum.nl/exhibition/13096-1>, <https://centraalmuseum.nl/exhibition/13953-1>, <https://centraalmuseum.nl/exhibition/14438-1>, <https://centraalmuseum.nl/exhibition/15224-1>, <https://centraalmuseum.nl/exhibition/15224-2>, <https://centraalmuseum.nl/exhibition/15224-3>, <https://centraalmuseum.nl/exhibition/15224-4>, <https://centraalmuseum.nl/exhibition/15224-5>, <https://centraalmuseum.nl/exhibition/15305-1>, <https://centraalmuseum.nl/exhibition/15376-1>, <https://centraalmuseum.nl/exhibition/15532-1>, <https://centraalmuseum.nl/exhibition/15559-1>, <https://centraalmuseum.nl/exhibition/15653-1>, <https://centraalmuseum.nl/exhibition/15968-1>, <https://centraalmuseum.nl/exhibition/2244-1>, <https://centraalmuseum.nl/exhibition/2849-1>, <https://centraalmuseum.nl/exhibition/2861-1>, <https://centraalmuseum.nl/exhibition/4219-1>, <https://centraalmuseum.nl/exhibition/4453-1>, <https://centraalmuseum.nl/exhibition/5051-1>, <https://centraalmuseum.nl/exhibition/7835-1>, <https://centraalmuseum.nl/exhibition/8137-1>, <https://centraalmuseum.nl/exhibition/8283-1>, <https://centraalmuseum.nl/exhibition/8342-1>, <https://centraalmuseum.nl/exhibition/8551-1>, <https://centraalmuseum.nl/exhibition/8557-1>, <https://centraalmuseum.nl/exhibition/8578-1>, <https://centraalmuseum.nl/exhibition/8657-1>, <https://centraalmuseum.nl/exhibition/8817-1>, <https://centraalmuseum.nl/exhibition/9729-1> ;
+    crm:P16i_was_used_for <https://centraalmuseum.nl/exhibition/10325-1>, <https://centraalmuseum.nl/exhibition/10357-1>, <https://centraalmuseum.nl/exhibition/10521-1>, <https://centraalmuseum.nl/exhibition/10522-1>, <https://centraalmuseum.nl/exhibition/10711-1>, <https://centraalmuseum.nl/exhibition/11026-1>, <https://centraalmuseum.nl/exhibition/12383-1>, <https://centraalmuseum.nl/exhibition/13095-1>, <https://centraalmuseum.nl/exhibition/13096-1>, <https://centraalmuseum.nl/exhibition/13953-1>, <https://centraalmuseum.nl/exhibition/14438-1>, <https://centraalmuseum.nl/exhibition/15224-1>, <https://centraalmuseum.nl/exhibition/15224-2>, <https://centraalmuseum.nl/exhibition/15224-3>, <https://centraalmuseum.nl/exhibition/15224-4>, <https://centraalmuseum.nl/exhibition/15224-5>, <https://centraalmuseum.nl/exhibition/15305-1>, <https://centraalmuseum.nl/exhibition/15376-1>, <https://centraalmuseum.nl/exhibition/15532-1>, <https://centraalmuseum.nl/exhibition/15559-1>, <https://centraalmuseum.nl/exhibition/15653-1>, <https://centraalmuseum.nl/exhibition/15968-1>, <https://centraalmuseum.nl/exhibition/16254-1>, <https://centraalmuseum.nl/exhibition/2244-1>, <https://centraalmuseum.nl/exhibition/2849-1>, <https://centraalmuseum.nl/exhibition/2861-1>, <https://centraalmuseum.nl/exhibition/4219-1>, <https://centraalmuseum.nl/exhibition/4453-1>, <https://centraalmuseum.nl/exhibition/5051-1>, <https://centraalmuseum.nl/exhibition/7835-1>, <https://centraalmuseum.nl/exhibition/8137-1>, <https://centraalmuseum.nl/exhibition/8283-1>, <https://centraalmuseum.nl/exhibition/8342-1>, <https://centraalmuseum.nl/exhibition/8551-1>, <https://centraalmuseum.nl/exhibition/8557-1>, <https://centraalmuseum.nl/exhibition/8578-1>, <https://centraalmuseum.nl/exhibition/8657-1>, <https://centraalmuseum.nl/exhibition/8817-1>, <https://centraalmuseum.nl/exhibition/9729-1> ;
     crm:P1_is_identified_by <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#f_number>, <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#identifier>, <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#titel>, <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300033618> ;
     crm:P43_has_dimension [

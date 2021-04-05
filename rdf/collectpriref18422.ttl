@@ -40,6 +40,10 @@
     a crm:E55_Type ;
     rdfs:label "breedte (dagmaat)" .
 
+<http://vocab.getty.edu/aat/300055863>
+    a crm:E55_Type ;
+    rdfs:label "Provenance Entry" .
+
 <http://vocab.getty.edu/aat/300215302>
     a crm:E55_Type ;
     rdfs:label "digital images" .
@@ -71,6 +75,30 @@
 <http://vocab.getty.edu/aat/300435440>
     a crm:E55_Type ;
     rdfs:label "Pagination Statement" .
+
+<https://centraalmuseum.nl/acquisition/1>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Boer-Gijsberti Hodenpijl, mevr. C.E."
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/2>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "veiling R.W.P. de Vries, Amsterdam, 16/17-07-1930"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/3>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1> ;
+    a crm:E8_Acquisition .
 
 <https://centraalmuseum.nl/documentation/12484>
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/12484#publication> ;
@@ -126,7 +154,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/12511#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/12511#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/12511#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/12511#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/12511#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/12511#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/12511#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -185,7 +222,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/13568#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/13568#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/13568#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/13568#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/13568#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/13568#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/13568#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -268,7 +314,7 @@
 
 <https://centraalmuseum.nl/documentation/13691#publicationplace-1>
     a crm:E53_Place ;
-    rdfs:label "Amsterdam", "Bussum" .
+    rdfs:label "", "Amsterdam", "Bussum" .
 
 <https://centraalmuseum.nl/documentation/13691#title>
     crm:P190_has_symbolic_content "Vincent van Gogh 1 : tekeningen : vroege jaren 1880-1883 : Van Gogh Museum" ;
@@ -278,7 +324,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/13694#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/13694#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/13694#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/13694#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/13694#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/13694#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/13694#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -327,7 +382,7 @@
 
 <https://centraalmuseum.nl/documentation/14157#publicationplace-1>
     a crm:E53_Place ;
-    rdfs:label "Den Haag" .
+    rdfs:label "", "Den Haag" .
 
 <https://centraalmuseum.nl/documentation/14157#title>
     crm:P190_has_symbolic_content "Wie was Vincent van Gogh" ;
@@ -692,7 +747,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/875#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/875#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/875#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/875#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/875#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/875#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/875#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1166,7 +1230,7 @@
 
 <https://centraalmuseum.nl/exhibition/8342-1#date>
     crm:P82a_begin_of_the_begin "2002-11-09T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    crm:P82b_end_of_the_end "2003-20-3)T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     a crm:E52_Time-Span .
 
 <https://centraalmuseum.nl/exhibition/8342-1#place>
@@ -1230,6 +1294,48 @@
 <https://centraalmuseum.nl/exhibition/8851-1#venue>
     a crm:E39_Actor ;
     rdfs:label "Centraal Museum" .
+
+<https://centraalmuseum.nl/provenance/1>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Boer-Gijsberti Hodenpijl, mevr. C.E."
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/1> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/2>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "veiling R.W.P. de Vries, Amsterdam, 16/17-07-1930"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/2> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/3>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1934-05-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1934-05-18T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/3> ;
+    a crm:E7_Activity .
 
 <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X21790_01.tif>
     dc:format "image/tiff" ;

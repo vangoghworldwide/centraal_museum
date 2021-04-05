@@ -99,6 +99,11 @@
         <xsl:apply-templates select="Exhibition/exhibition/venue"/>
 
     </crm:E22_Human-Made_Object>
+
+    <xsl:apply-templates select="owner_hist.owner">
+        <xsl:with-param name="uri" select="PIDwork/PID_work_URI"/>
+    </xsl:apply-templates>
+
  
 </xsl:template>
 
@@ -222,8 +227,6 @@
         </crm:P1_is_identified_by>
     </xsl:if>
 </xsl:template>
-
-
 
 <xsl:template match="Title/title">
     <xsl:param name="uri"/>
@@ -928,6 +931,80 @@
       </crm:E7_Activity>
     </crm:P16i_was_used_for>
 </xsl:template>
+
+<!-- provenance -->
+<xsl:template match="owner_hist.owner">
+    <xsl:param name="uri"/>
+    <xsl:variable name="number">
+        <!--xsl:number/-->
+        <xsl:value-of select="position()"/>
+    </xsl:variable>
+    <crm:E7_Activity>
+        <xsl:attribute name="rdf:about">
+            <xsl:value-of select="$baseUri"/>
+            <xsl:text>provenance/</xsl:text>
+            <xsl:value-of select="$number"/>
+        </xsl:attribute>
+        <crm:P2_has_type>
+            <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300055863">
+                <rdfs:label>Provenance Entry</rdfs:label>
+            </crm:E55_Type>
+        </crm:P2_has_type>
+        <crm:P14_carried_out_by>
+          <crm:E39_Actor>
+            <rdfs:label>
+                <xsl:value-of select="."/>
+            </rdfs:label>
+          </crm:E39_Actor>
+        </crm:P14_carried_out_by>
+        <crm:P4_has_time-span>
+            <crm:E52_Time-Span>
+                <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
+                    <xsl:call-template name="begindateconverter">
+                        <xsl:with-param name="date" select="../owner_hist.date.start[number($number)]"/>
+                    </xsl:call-template>
+                </crm:P82a_begin_of_the_begin>
+                <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
+                    <xsl:call-template name="enddateconverter">
+                        <xsl:with-param name="date" select="../owner_hist.date.start[number($number)]"/>
+                    </xsl:call-template>
+                </crm:P82b_end_of_the_end>               
+            </crm:E52_Time-Span>
+        </crm:P4_has_time-span>        
+        <crm:P9_consists_of>
+            <crm:E8_Acquisition>
+                <xsl:attribute name="rdf:about">
+                    <xsl:value-of select="$baseUri"/>
+                    <xsl:text>acquisition/</xsl:text>
+                    <xsl:value-of select="$number"/>
+                </xsl:attribute>
+                <!--crm:P23_transferred_title_from>
+                    <crm:E39_Actor>
+                        <rdfs:label>
+                            <xsl:value-of select="../owner_hist.owner"/>
+                        </rdfs:label>
+                    </crm:E39_Actor>
+                </crm:P23_transferred_title_from-->
+                <crm:P24_transferred_title_of>
+                    <crm:E22_Human-Made_Object>
+                        <xsl:attribute name="rdf:about">
+                            <xsl:value-of select="$uri"/>
+                        </xsl:attribute>
+                    </crm:E22_Human-Made_Object>
+                </crm:P24_transferred_title_of>
+                <crm:P22_transferred_title_to>
+                    <crm:E39_Actor>
+                        <rdfs:label>
+                            <xsl:value-of select="."/>
+                        </rdfs:label>
+                    </crm:E39_Actor>
+                </crm:P22_transferred_title_to>
+            </crm:E8_Acquisition>
+        </crm:P9_consists_of>
+    </crm:E7_Activity>
+</xsl:template>
+
+
 
 <!-- general -->
 <xsl:template match="value">

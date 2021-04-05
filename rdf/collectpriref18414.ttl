@@ -48,6 +48,10 @@
     a crm:E55_Type ;
     rdfs:label "breedte" .
 
+<http://vocab.getty.edu/aat/300055863>
+    a crm:E55_Type ;
+    rdfs:label "Provenance Entry" .
+
 <http://vocab.getty.edu/aat/300215302>
     a crm:E55_Type ;
     rdfs:label "digital images" .
@@ -83,6 +87,30 @@
 <http://vocab.getty.edu/tgn/7006810>
     a crm:E53_Place ;
     rdfs:label "Den Haag" .
+
+<https://centraalmuseum.nl/acquisition/1>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Kunsthandel Huinck"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/2>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Bremmer, H.P. [dr.]"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
+    a crm:E8_Acquisition .
+
+<https://centraalmuseum.nl/acquisition/3>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
+    a crm:E8_Acquisition .
 
 <https://centraalmuseum.nl/documentation/10049>
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/10049#publication> ;
@@ -1011,12 +1039,17 @@
 <https://centraalmuseum.nl/documentation/25017#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
     crm:P4_has_time-span <https://centraalmuseum.nl/documentation/25017#publicationdate> ;
+    crm:P7_took_place_at <https://centraalmuseum.nl/documentation/25017#publicationplace-1> ;
     a crm:E7_Activity .
 
 <https://centraalmuseum.nl/documentation/25017#publicationdate>
     crm:P82a_begin_of_the_begin "2017-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     crm:P82b_end_of_the_end "2017-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     a crm:E52_Time-Span .
+
+<https://centraalmuseum.nl/documentation/25017#publicationplace-1>
+    a crm:E53_Place ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/25017#title>
     crm:P190_has_symbolic_content "Van Gogh : Tra il grano e il cielo" ;
@@ -1606,6 +1639,31 @@
     a crm:E39_Actor ;
     rdfs:label "Basilica Palladiana" .
 
+<https://centraalmuseum.nl/exhibition/16254-1>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/exhibition/16254-1#venue> ;
+    crm:P1_is_identified_by <https://centraalmuseum.nl/exhibition/16254-1#title> ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300054766> ;
+    crm:P4_has_time-span <https://centraalmuseum.nl/exhibition/16254-1#date> ;
+    crm:P7_took_place_at <https://centraalmuseum.nl/exhibition/16254-1#place> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/exhibition/16254-1#date>
+    crm:P82a_begin_of_the_begin "2020-10-10T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    crm:P82b_end_of_the_end "2021-06-06T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    a crm:E52_Time-Span .
+
+<https://centraalmuseum.nl/exhibition/16254-1#place>
+    a crm:E53_Place ;
+    rdfs:label "Padua" .
+
+<https://centraalmuseum.nl/exhibition/16254-1#title>
+    crm:P190_has_symbolic_content "Van Gogh. The colours of life" ;
+    a crm:E33_E41_Linguistic_Appellation .
+
+<https://centraalmuseum.nl/exhibition/16254-1#venue>
+    a crm:E39_Actor ;
+    rdfs:label "Centro Culturale Altinate San Gaetano" .
+
 <https://centraalmuseum.nl/exhibition/3083-1>
     crm:P14_carried_out_by <https://centraalmuseum.nl/exhibition/3083-1#venue> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/exhibition/3083-1#title> ;
@@ -1766,7 +1824,7 @@
 
 <https://centraalmuseum.nl/exhibition/8342-1#date>
     crm:P82a_begin_of_the_begin "2002-11-09T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    crm:P82b_end_of_the_end "2003-20-3)T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     a crm:E52_Time-Span .
 
 <https://centraalmuseum.nl/exhibition/8342-1#place>
@@ -1919,6 +1977,48 @@
     crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
     a crm:E12_Production .
 
+<https://centraalmuseum.nl/provenance/1>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Kunsthandel Huinck"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1919-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1919-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/1> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/2>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Bremmer, H.P. [dr.]"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/2> ;
+    a crm:E7_Activity .
+
+<https://centraalmuseum.nl/provenance/3>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1955-04-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1955-04-18T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/3> ;
+    a crm:E7_Activity .
+
 <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X21782_01.tif>
     dc:format "image/tiff" ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300215302>, <http://vocab.getty.edu/aat/300404450> ;
@@ -1940,7 +2040,7 @@
 <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48>
     crm:P108i_was_produced_by <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#production> ;
     crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X21782_01.tif> ;
-    crm:P16i_was_used_for <https://centraalmuseum.nl/exhibition/10357-1>, <https://centraalmuseum.nl/exhibition/10711-1>, <https://centraalmuseum.nl/exhibition/11026-1>, <https://centraalmuseum.nl/exhibition/13095-1>, <https://centraalmuseum.nl/exhibition/13096-1>, <https://centraalmuseum.nl/exhibition/14079-1>, <https://centraalmuseum.nl/exhibition/15024-1>, <https://centraalmuseum.nl/exhibition/15305-1>, <https://centraalmuseum.nl/exhibition/15434-1>, <https://centraalmuseum.nl/exhibition/15938-1>, <https://centraalmuseum.nl/exhibition/3083-1>, <https://centraalmuseum.nl/exhibition/4080-1>, <https://centraalmuseum.nl/exhibition/4453-1>, <https://centraalmuseum.nl/exhibition/618-1>, <https://centraalmuseum.nl/exhibition/7457-1>, <https://centraalmuseum.nl/exhibition/7835-1>, <https://centraalmuseum.nl/exhibition/8342-1>, <https://centraalmuseum.nl/exhibition/8619-1>, <https://centraalmuseum.nl/exhibition/8827-1>, <https://centraalmuseum.nl/exhibition/8851-1>, <https://centraalmuseum.nl/exhibition/917-1>, <https://centraalmuseum.nl/exhibition/9729-1> ;
+    crm:P16i_was_used_for <https://centraalmuseum.nl/exhibition/10357-1>, <https://centraalmuseum.nl/exhibition/10711-1>, <https://centraalmuseum.nl/exhibition/11026-1>, <https://centraalmuseum.nl/exhibition/13095-1>, <https://centraalmuseum.nl/exhibition/13096-1>, <https://centraalmuseum.nl/exhibition/14079-1>, <https://centraalmuseum.nl/exhibition/15024-1>, <https://centraalmuseum.nl/exhibition/15305-1>, <https://centraalmuseum.nl/exhibition/15434-1>, <https://centraalmuseum.nl/exhibition/15938-1>, <https://centraalmuseum.nl/exhibition/16254-1>, <https://centraalmuseum.nl/exhibition/3083-1>, <https://centraalmuseum.nl/exhibition/4080-1>, <https://centraalmuseum.nl/exhibition/4453-1>, <https://centraalmuseum.nl/exhibition/618-1>, <https://centraalmuseum.nl/exhibition/7457-1>, <https://centraalmuseum.nl/exhibition/7835-1>, <https://centraalmuseum.nl/exhibition/8342-1>, <https://centraalmuseum.nl/exhibition/8619-1>, <https://centraalmuseum.nl/exhibition/8827-1>, <https://centraalmuseum.nl/exhibition/8851-1>, <https://centraalmuseum.nl/exhibition/917-1>, <https://centraalmuseum.nl/exhibition/9729-1> ;
     crm:P1_is_identified_by <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#f_number>, <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#identifier>, <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#jh_number>, <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#titel>, <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300033618> ;
     crm:P43_has_dimension [
