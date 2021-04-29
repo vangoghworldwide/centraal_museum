@@ -97,6 +97,7 @@
             <source.pagination>12-15</source.pagination>
             <source.publication_years>1996-09</source.publication_years>
             <source.title>Kunstbeeld</source.title>
+            <source.title.lead_word/>
             <source.volume/>
           </Source>
           <Title>
@@ -111,6 +112,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 7</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Copies>
             <copy.number>R03143</copy.number>
           </Copies>
@@ -133,6 +137,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 13</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Copies>
             <copy.number>R03127</copy.number>
           </Copies>
@@ -155,6 +162,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 39, p. 53, met afb. in kleur; cat. nr. 39, p. 228</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Copies>
             <copy.number>97/774</copy.number>
           </Copies>
@@ -216,6 +226,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 28, afb. 31</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Copies>
             <copy.number>CC305</copy.number>
           </Copies>
@@ -251,6 +264,7 @@
             <source.pagination>27-31</source.pagination>
             <source.publication_years>1904</source.publication_years>
             <source.title>Onze Kunst : ge&#239;llustreerd maandschrift voor beeldende en decoratieve kunsten</source.title>
+            <source.title.lead_word/>
             <source.volume/>
           </Source>
           <Title>
@@ -265,6 +279,9 @@
       <Documentation>
         <documentation.page_reference>met afb.</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Publisher>
             <place_of_publication>Utrecht</place_of_publication>
             <year_of_publication>1963</year_of_publication>
@@ -396,6 +413,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 138</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Copies>
             <copy.number>R03176</copy.number>
           </Copies>
@@ -450,6 +470,9 @@
       <Documentation>
         <documentation.page_reference>p. 11 afb.</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Source>
             <source.day/>
             <source.issue>3; 11/12</source.issue>
@@ -457,6 +480,7 @@
             <source.pagination/>
             <source.publication_years>1987</source.publication_years>
             <source.title>Noordbrabants Museumnieuws</source.title>
+            <source.title.lead_word/>
             <source.volume/>
           </Source>
           <Title>
@@ -498,6 +522,9 @@
       <Documentation>
         <documentation.page_reference>p. 37, nr. 4, met afb.</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Source>
             <source.day/>
             <source.issue/>
@@ -505,6 +532,7 @@
             <source.pagination/>
             <source.publication_years/>
             <source.title>Van Gogh Museum journal 1997-1998</source.title>
+            <source.title.lead_word/>
             <source.volume/>
           </Source>
           <Title>
@@ -554,6 +582,9 @@
       <Documentation>
         <documentation.page_reference>nr. 18</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Publisher>
             <place_of_publication/>
             <year_of_publication>z.j.</year_of_publication>
@@ -591,6 +622,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 14, met afb.</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1904-05-03</year_of_publication>
@@ -822,6 +856,7 @@
             <source.pagination>A28 - A42</source.pagination>
             <source.publication_years/>
             <source.title>Herrenhausen '90 : 22. Kunst- und Antiquit&#228;tenmesse Hannover</source.title>
+            <source.title.lead_word/>
             <source.volume/>
           </Source>
           <Title>
@@ -3696,7 +3731,7 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
             <object.object_number>16463</object.object_number>
           </Object>
           <Object>
-            <object.object_number>16465</object.object_number>
+            <object.object_number/>
           </Object>
           <Object>
             <object.object_number>16466</object.object_number>
@@ -4686,8 +4721,8 @@ De opmerking moet dan ook gezien worden als een politiek statement: het Centraal
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">2921.8317</link_resolve_time>
-    <xml_creation_time unit="mS" culture="en-US">2</xml_creation_time>
-    <response_time unit="mS" culture="en-US">21977</response_time>
+    <link_resolve_time unit="mS" culture="en-US">109.4033</link_resolve_time>
+    <xml_creation_time unit="mS" culture="en-US">1</xml_creation_time>
+    <response_time unit="mS" culture="en-US">202</response_time>
   </diagnostic>
 </adlibXML>

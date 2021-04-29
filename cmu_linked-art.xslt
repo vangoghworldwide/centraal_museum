@@ -935,14 +935,13 @@
 <!-- provenance -->
 <xsl:template match="owner_hist.owner">
     <xsl:param name="uri"/>
-    <xsl:variable name="number">
-        <!--xsl:number/-->
+    <xsl:param name="number">
         <xsl:value-of select="position()"/>
-    </xsl:variable>
+    </xsl:param>
     <crm:E7_Activity>
         <xsl:attribute name="rdf:about">
-            <xsl:value-of select="$baseUri"/>
-            <xsl:text>provenance/</xsl:text>
+            <xsl:value-of select="$uri"/>
+            <xsl:text>#provenance-</xsl:text>
             <xsl:value-of select="$number"/>
         </xsl:attribute>
         <crm:P2_has_type>
@@ -974,8 +973,8 @@
         <crm:P9_consists_of>
             <crm:E8_Acquisition>
                 <xsl:attribute name="rdf:about">
-                    <xsl:value-of select="$baseUri"/>
-                    <xsl:text>acquisition/</xsl:text>
+                    <xsl:value-of select="$uri"/>
+                    <xsl:text>#acquisition-</xsl:text>
                     <xsl:value-of select="$number"/>
                 </xsl:attribute>
                 <!--crm:P23_transferred_title_from>

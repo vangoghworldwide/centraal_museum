@@ -52,6 +52,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 10</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1952</year_of_publication>
@@ -345,6 +348,9 @@
       <Documentation>
         <documentation.page_reference>p. 116, afb. 81</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Publisher>
             <place_of_publication>Etten-Leur</place_of_publication>
             <year_of_publication>1990</year_of_publication>
@@ -370,6 +376,7 @@
             <source.pagination>27-39</source.pagination>
             <source.publication_years>1994</source.publication_years>
             <source.title>Jong Holland</source.title>
+            <source.title.lead_word/>
             <source.volume/>
           </Source>
           <Title>
@@ -463,6 +470,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 4, met afb.</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1961</year_of_publication>
@@ -506,6 +516,7 @@
             <source.pagination/>
             <source.publication_years>1973</source.publication_years>
             <source.title>Jaarboek Die Haghe</source.title>
+            <source.title.lead_word/>
             <source.volume/>
           </Source>
           <Title>
@@ -3275,8 +3286,8 @@
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">468.5987</link_resolve_time>
-    <xml_creation_time unit="mS" culture="en-US">2</xml_creation_time>
-    <response_time unit="mS" culture="en-US">880</response_time>
+    <link_resolve_time unit="mS" culture="en-US">62.494</link_resolve_time>
+    <xml_creation_time unit="mS" culture="en-US">1</xml_creation_time>
+    <response_time unit="mS" culture="en-US">118</response_time>
   </diagnostic>
 </adlibXML>

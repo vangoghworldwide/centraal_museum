@@ -80,38 +80,6 @@
     a crm:E55_Type ;
     rdfs:label "Pagination Statement" .
 
-<https://centraalmuseum.nl/acquisition/1>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Galerie d'Art A. Schuffenecker"
-    ] ;
-    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
-    a crm:E8_Acquisition .
-
-<https://centraalmuseum.nl/acquisition/2>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Galerie d'Art E. Blot"
-    ] ;
-    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
-    a crm:E8_Acquisition .
-
-<https://centraalmuseum.nl/acquisition/3>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Galerie Charles Vincent, Parijs"
-    ] ;
-    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
-    a crm:E8_Acquisition .
-
-<https://centraalmuseum.nl/acquisition/4>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Baaren, L.H. en J.F. van"
-    ] ;
-    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
-    a crm:E8_Acquisition .
-
 <https://centraalmuseum.nl/documentation/10049>
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/10049#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/10049#title> ;
@@ -196,7 +164,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/11669#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/11669#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/11669#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/11669#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/11669#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/11669#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/11669#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -221,7 +198,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/12491#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/12491#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/12491#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/12491#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/12491#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/12491#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/12491#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1420,7 +1406,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/9351#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/9351#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/9351#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/9351#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/9351#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/9351#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/9351#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -2448,62 +2443,6 @@
     crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
     a crm:E12_Production .
 
-<https://centraalmuseum.nl/provenance/1>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Galerie d'Art A. Schuffenecker"
-    ] ;
-    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
-    crm:P4_has_time-span [
-        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        a crm:E52_Time-Span
-    ] ;
-    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/1> ;
-    a crm:E7_Activity .
-
-<https://centraalmuseum.nl/provenance/2>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Galerie d'Art E. Blot"
-    ] ;
-    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
-    crm:P4_has_time-span [
-        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        a crm:E52_Time-Span
-    ] ;
-    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/2> ;
-    a crm:E7_Activity .
-
-<https://centraalmuseum.nl/provenance/3>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Galerie Charles Vincent, Parijs"
-    ] ;
-    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
-    crm:P4_has_time-span [
-        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        a crm:E52_Time-Span
-    ] ;
-    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/3> ;
-    a crm:E7_Activity .
-
-<https://centraalmuseum.nl/provenance/4>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Baaren, L.H. en J.F. van"
-    ] ;
-    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
-    crm:P4_has_time-span [
-        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        a crm:E52_Time-Span
-    ] ;
-    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/4> ;
-    a crm:E7_Activity .
-
 <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X22123_01.tif>
     dc:format "image/tiff" ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300215302>, <http://vocab.getty.edu/aat/300404450> ;
@@ -2880,6 +2819,38 @@
     a crm:E22_Human-Made_Object ;
     rdfs:seeAlso <https://vangoghworldwide.org/data/artwork/F306> .
 
+<https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#acquisition-1>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie d'Art A. Schuffenecker"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
+    a crm:E8_Acquisition .
+
+<https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#acquisition-2>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie d'Art E. Blot"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
+    a crm:E8_Acquisition .
+
+<https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#acquisition-3>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie Charles Vincent, Parijs"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
+    a crm:E8_Acquisition .
+
+<https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#acquisition-4>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE> ;
+    a crm:E8_Acquisition .
+
 <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#f_number>
     crm:P190_has_symbolic_content "F306" ;
     crm:P2_has_type <https://vangoghworldwide.org/data/concept/f_number> ;
@@ -2898,6 +2869,62 @@
         a crm:E52_Time-Span
     ] ;
     a crm:E12_Production .
+
+<https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#provenance-1>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie d'Art A. Schuffenecker"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#acquisition-1> ;
+    a crm:E7_Activity .
+
+<https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#provenance-2>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie d'Art E. Blot"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#acquisition-2> ;
+    a crm:E7_Activity .
+
+<https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#provenance-3>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Galerie Charles Vincent, Parijs"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#acquisition-3> ;
+    a crm:E7_Activity .
+
+<https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#provenance-4>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#acquisition-4> ;
+    a crm:E7_Activity .
 
 <https://hdl.handle.net/21.12130/collect.007E9ECA-4952-46BE-8326-70CB7F05BDBE#titel>
     crm:P190_has_symbolic_content "Sous-bois" ;

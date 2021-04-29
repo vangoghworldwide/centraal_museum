@@ -88,30 +88,6 @@
     a crm:E53_Place ;
     rdfs:label "Den Haag" .
 
-<https://centraalmuseum.nl/acquisition/1>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Kunsthandel Huinck"
-    ] ;
-    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
-    a crm:E8_Acquisition .
-
-<https://centraalmuseum.nl/acquisition/2>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Bremmer, H.P. [dr.]"
-    ] ;
-    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
-    a crm:E8_Acquisition .
-
-<https://centraalmuseum.nl/acquisition/3>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Baaren, L.H. en J.F. van"
-    ] ;
-    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
-    a crm:E8_Acquisition .
-
 <https://centraalmuseum.nl/documentation/10049>
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/10049#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/10049#title> ;
@@ -150,7 +126,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/12529#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/12529#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/12529#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/12529#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/12529#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/12529#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/12529#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -327,7 +312,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/13568#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/13568#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/13568#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/13568#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/13568#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/13568#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/13568#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -424,7 +418,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/13694#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/13694#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/13694#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/13694#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/13694#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/13694#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/13694#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1059,7 +1062,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/26826#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/26826#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/26826#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/26826#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/26826#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/26826#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/26826#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1152,7 +1164,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/2691#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/2691#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/2691#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/2691#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/2691#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/2691#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/2691#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1977,48 +1998,6 @@
     crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
     a crm:E12_Production .
 
-<https://centraalmuseum.nl/provenance/1>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Kunsthandel Huinck"
-    ] ;
-    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
-    crm:P4_has_time-span [
-        crm:P82a_begin_of_the_begin "1919-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        crm:P82b_end_of_the_end "1919-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        a crm:E52_Time-Span
-    ] ;
-    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/1> ;
-    a crm:E7_Activity .
-
-<https://centraalmuseum.nl/provenance/2>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Bremmer, H.P. [dr.]"
-    ] ;
-    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
-    crm:P4_has_time-span [
-        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        a crm:E52_Time-Span
-    ] ;
-    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/2> ;
-    a crm:E7_Activity .
-
-<https://centraalmuseum.nl/provenance/3>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Baaren, L.H. en J.F. van"
-    ] ;
-    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
-    crm:P4_has_time-span [
-        crm:P82a_begin_of_the_begin "1955-04-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        crm:P82b_end_of_the_end "1955-04-18T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        a crm:E52_Time-Span
-    ] ;
-    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/3> ;
-    a crm:E7_Activity .
-
 <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X21782_01.tif>
     dc:format "image/tiff" ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300215302>, <http://vocab.getty.edu/aat/300404450> ;
@@ -2373,6 +2352,30 @@
     a crm:E22_Human-Made_Object ;
     rdfs:seeAlso <https://vangoghworldwide.org/data/artwork/F16> .
 
+<https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#acquisition-1>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Kunsthandel Huinck"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
+    a crm:E8_Acquisition .
+
+<https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#acquisition-2>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Bremmer, H.P. [dr.]"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
+    a crm:E8_Acquisition .
+
+<https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#acquisition-3>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48> ;
+    a crm:E8_Acquisition .
+
 <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#f_number>
     crm:P190_has_symbolic_content "F16" ;
     crm:P2_has_type <https://vangoghworldwide.org/data/concept/f_number> ;
@@ -2397,6 +2400,48 @@
     ] ;
     crm:P7_took_place_at <http://vocab.getty.edu/tgn/7006810> ;
     a crm:E12_Production .
+
+<https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#provenance-1>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Kunsthandel Huinck"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1919-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1919-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#acquisition-1> ;
+    a crm:E7_Activity .
+
+<https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#provenance-2>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Bremmer, H.P. [dr.]"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#acquisition-2> ;
+    a crm:E7_Activity .
+
+<https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#provenance-3>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1955-04-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1955-04-18T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#acquisition-3> ;
+    a crm:E7_Activity .
 
 <https://hdl.handle.net/21.12130/collect.D637A38E-05CA-4A1C-A63F-11796BE91D48#titel>
     crm:P190_has_symbolic_content "Schemering (Oude boerderijen te Loosduinen)" ;

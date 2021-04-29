@@ -76,35 +76,20 @@
     a crm:E55_Type ;
     rdfs:label "Pagination Statement" .
 
-<https://centraalmuseum.nl/acquisition/1>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Boer-Gijsberti Hodenpijl, mevr. C.E."
-    ] ;
-    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1> ;
-    a crm:E8_Acquisition .
-
-<https://centraalmuseum.nl/acquisition/2>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "veiling R.W.P. de Vries, Amsterdam, 16/17-07-1930"
-    ] ;
-    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1> ;
-    a crm:E8_Acquisition .
-
-<https://centraalmuseum.nl/acquisition/3>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Baaren, L.H. en J.F. van"
-    ] ;
-    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1> ;
-    a crm:E8_Acquisition .
-
 <https://centraalmuseum.nl/documentation/12484>
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/12484#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/12484#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/12484#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/12484#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/12484#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/12484#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/12484#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -129,7 +114,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/12499#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/12499#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/12499#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/12499#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/12499#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/12499#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/12499#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -612,7 +606,16 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/3167#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/3167#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
+    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/3167#creation> ;
     a crm:E33_Linguistic_Object .
+
+<https://centraalmuseum.nl/documentation/3167#creation>
+    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/3167#creator-1> ;
+    a crm:E65_Creation .
+
+<https://centraalmuseum.nl/documentation/3167#creator-1>
+    a crm:E39_Actor ;
+    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/3167#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1295,48 +1298,6 @@
     a crm:E39_Actor ;
     rdfs:label "Centraal Museum" .
 
-<https://centraalmuseum.nl/provenance/1>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Boer-Gijsberti Hodenpijl, mevr. C.E."
-    ] ;
-    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
-    crm:P4_has_time-span [
-        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        a crm:E52_Time-Span
-    ] ;
-    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/1> ;
-    a crm:E7_Activity .
-
-<https://centraalmuseum.nl/provenance/2>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "veiling R.W.P. de Vries, Amsterdam, 16/17-07-1930"
-    ] ;
-    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
-    crm:P4_has_time-span [
-        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        a crm:E52_Time-Span
-    ] ;
-    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/2> ;
-    a crm:E7_Activity .
-
-<https://centraalmuseum.nl/provenance/3>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Baaren, L.H. en J.F. van"
-    ] ;
-    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
-    crm:P4_has_time-span [
-        crm:P82a_begin_of_the_begin "1934-05-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        crm:P82b_end_of_the_end "1934-05-18T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        a crm:E52_Time-Span
-    ] ;
-    crm:P9_consists_of <https://centraalmuseum.nl/acquisition/3> ;
-    a crm:E7_Activity .
-
 <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X21790_01.tif>
     dc:format "image/tiff" ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300215302>, <http://vocab.getty.edu/aat/300404450> ;
@@ -1570,6 +1531,30 @@
     a crm:E22_Human-Made_Object ;
     rdfs:seeAlso <https://vangoghworldwide.org/data/artwork/F963> .
 
+<https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#acquisition-1>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Boer-Gijsberti Hodenpijl, mevr. C.E."
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1> ;
+    a crm:E8_Acquisition .
+
+<https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#acquisition-2>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "veiling R.W.P. de Vries, Amsterdam, 16/17-07-1930"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1> ;
+    a crm:E8_Acquisition .
+
+<https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#acquisition-3>
+    crm:P22_transferred_title_to [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1> ;
+    a crm:E8_Acquisition .
+
 <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#f_number>
     crm:P190_has_symbolic_content "F963" ;
     crm:P2_has_type <https://vangoghworldwide.org/data/concept/f_number> ;
@@ -1588,6 +1573,48 @@
         a crm:E52_Time-Span
     ] ;
     a crm:E12_Production .
+
+<https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#provenance-1>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Boer-Gijsberti Hodenpijl, mevr. C.E."
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#acquisition-1> ;
+    a crm:E7_Activity .
+
+<https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#provenance-2>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "veiling R.W.P. de Vries, Amsterdam, 16/17-07-1930"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#acquisition-2> ;
+    a crm:E7_Activity .
+
+<https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#provenance-3>
+    crm:P14_carried_out_by [
+        a crm:E39_Actor ;
+        rdfs:label "Baaren, L.H. en J.F. van"
+    ] ;
+    crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
+    crm:P4_has_time-span [
+        crm:P82a_begin_of_the_begin "1934-05-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        crm:P82b_end_of_the_end "1934-05-18T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a crm:E52_Time-Span
+    ] ;
+    crm:P9_consists_of <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#acquisition-3> ;
+    a crm:E7_Activity .
 
 <https://hdl.handle.net/21.12130/collect.F77F4240-C5B6-44F2-AB8B-93D5476C77A1#titel>
     crm:P190_has_symbolic_content "Diaconiemannetje" ;

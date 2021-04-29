@@ -225,6 +225,9 @@
       <Documentation>
         <documentation.page_reference>p. 287, cat. nr. 95; afb. in kleur op p. 183</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Publisher>
             <place_of_publication>Antwerpen</place_of_publication>
             <year_of_publication>1991</year_of_publication>
@@ -312,6 +315,7 @@
             <source.pagination>14-19</source.pagination>
             <source.publication_years>2003</source.publication_years>
             <source.title>Revisor : tweemaandelijks literair tijdschrift voor Nederland en Vlaanderen</source.title>
+            <source.title.lead_word>De</source.title.lead_word>
             <source.volume/>
           </Source>
           <Title>
@@ -424,6 +428,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 15</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1905</year_of_publication>
@@ -439,6 +446,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 15, met afb.</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1932</year_of_publication>
@@ -546,6 +556,7 @@
             <source.pagination>8-17</source.pagination>
             <source.publication_years>1996, mei/juni</source.publication_years>
             <source.title>Kunstschrift</source.title>
+            <source.title.lead_word/>
             <source.volume/>
           </Source>
           <Title>
@@ -637,6 +648,7 @@
             <source.pagination/>
             <source.publication_years>z.j. [1954/55]</source.publication_years>
             <source.title>Mededelingenblad : Vrienden van de Nederlandse Ceramiek</source.title>
+            <source.title.lead_word/>
             <source.volume/>
           </Source>
           <Title>
@@ -651,6 +663,9 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 7</documentation.page_reference>
         <documentation.title>
+          <Author>
+            <author.name/>
+          </Author>
           <Publisher>
             <place_of_publication>Utrecht</place_of_publication>
             <year_of_publication>1905</year_of_publication>
@@ -709,6 +724,7 @@
             <source.pagination>A28 - A42</source.pagination>
             <source.publication_years/>
             <source.title>Herrenhausen '90 : 22. Kunst- und Antiquit&#228;tenmesse Hannover</source.title>
+            <source.title.lead_word/>
             <source.volume/>
           </Source>
           <Title>
@@ -4936,8 +4952,8 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">583.3442</link_resolve_time>
-    <xml_creation_time unit="mS" culture="en-US">2</xml_creation_time>
-    <response_time unit="mS" culture="en-US">8587</response_time>
+    <link_resolve_time unit="mS" culture="en-US">62.4922</link_resolve_time>
+    <xml_creation_time unit="mS" culture="en-US">1</xml_creation_time>
+    <response_time unit="mS" culture="en-US">149</response_time>
   </diagnostic>
 </adlibXML>

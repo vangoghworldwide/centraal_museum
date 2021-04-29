@@ -551,6 +551,15 @@
                 <crm:P190_has_symbolic_content>In dienst van de kunst : Antwerps mecenaat rond `Kunst van Heden` (1905-1959)</crm:P190_has_symbolic_content>
               </crm:E33_E41_Linguistic_Appellation>
             </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/6039#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/6039#creator-1">
+                    <rdfs:label/>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
             <crm:P2_has_type>
               <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
                 <rdfs:label>books</rdfs:label>
@@ -1032,6 +1041,15 @@
                 <crm:P190_has_symbolic_content>Schilderijen en tekeningen door Vincent van Gogh</crm:P190_has_symbolic_content>
               </crm:E33_E41_Linguistic_Appellation>
             </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/11675#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/11675#creator-1">
+                    <rdfs:label/>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
             <crm:P2_has_type>
               <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
                 <rdfs:label>books</rdfs:label>
@@ -1080,6 +1098,15 @@
                 <crm:P190_has_symbolic_content>Tentoonstelling van schilderijen door Vincent van Gogh, J.B. Jongkind en Floris Verster</crm:P190_has_symbolic_content>
               </crm:E33_E41_Linguistic_Appellation>
             </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/12511#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/12511#creator-1">
+                    <rdfs:label/>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
             <crm:P2_has_type>
               <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
                 <rdfs:label>books</rdfs:label>
@@ -1632,6 +1659,15 @@
                 <crm:P190_has_symbolic_content>Vincent van Gogh (Utrecht)</crm:P190_has_symbolic_content>
               </crm:E33_E41_Linguistic_Appellation>
             </crm:P1_is_identified_by>
+            <crm:P94i_was_created_by>
+              <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/13702#creation">
+                <crm:P14_carried_out_by>
+                  <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/13702#creator-1">
+                    <rdfs:label/>
+                  </crm:E39_Actor>
+                </crm:P14_carried_out_by>
+              </crm:E65_Creation>
+            </crm:P94i_was_created_by>
             <crm:P2_has_type>
               <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300028051">
                 <rdfs:label>books</rdfs:label>
@@ -2920,7 +2956,7 @@
       </crm:E7_Activity>
     </crm:P16i_was_used_for>
   </crm:E22_Human-Made_Object>
-  <crm:E7_Activity rdf:about="https://centraalmuseum.nl/provenance/1">
+  <crm:E7_Activity rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA#provenance-1">
     <crm:P2_has_type>
       <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300055863">
         <rdfs:label>Provenance Entry</rdfs:label>
@@ -2938,7 +2974,7 @@
       </crm:E52_Time-Span>
     </crm:P4_has_time-span>
     <crm:P9_consists_of>
-      <crm:E8_Acquisition rdf:about="https://centraalmuseum.nl/acquisition/1">
+      <crm:E8_Acquisition rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA#acquisition-1">
         <crm:P24_transferred_title_of>
           <crm:E22_Human-Made_Object rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA"/>
         </crm:P24_transferred_title_of>
@@ -2950,7 +2986,7 @@
       </crm:E8_Acquisition>
     </crm:P9_consists_of>
   </crm:E7_Activity>
-  <crm:E7_Activity rdf:about="https://centraalmuseum.nl/provenance/2">
+  <crm:E7_Activity rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA#provenance-2">
     <crm:P2_has_type>
       <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300055863">
         <rdfs:label>Provenance Entry</rdfs:label>
@@ -2968,7 +3004,7 @@
       </crm:E52_Time-Span>
     </crm:P4_has_time-span>
     <crm:P9_consists_of>
-      <crm:E8_Acquisition rdf:about="https://centraalmuseum.nl/acquisition/2">
+      <crm:E8_Acquisition rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA#acquisition-2">
         <crm:P24_transferred_title_of>
           <crm:E22_Human-Made_Object rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA"/>
         </crm:P24_transferred_title_of>
@@ -2980,7 +3016,7 @@
       </crm:E8_Acquisition>
     </crm:P9_consists_of>
   </crm:E7_Activity>
-  <crm:E7_Activity rdf:about="https://centraalmuseum.nl/provenance/3">
+  <crm:E7_Activity rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA#provenance-3">
     <crm:P2_has_type>
       <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300055863">
         <rdfs:label>Provenance Entry</rdfs:label>
@@ -2998,7 +3034,7 @@
       </crm:E52_Time-Span>
     </crm:P4_has_time-span>
     <crm:P9_consists_of>
-      <crm:E8_Acquisition rdf:about="https://centraalmuseum.nl/acquisition/3">
+      <crm:E8_Acquisition rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA#acquisition-3">
         <crm:P24_transferred_title_of>
           <crm:E22_Human-Made_Object rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA"/>
         </crm:P24_transferred_title_of>
@@ -3010,7 +3046,7 @@
       </crm:E8_Acquisition>
     </crm:P9_consists_of>
   </crm:E7_Activity>
-  <crm:E7_Activity rdf:about="https://centraalmuseum.nl/provenance/4">
+  <crm:E7_Activity rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA#provenance-4">
     <crm:P2_has_type>
       <crm:E55_Type rdf:about="http://vocab.getty.edu/aat/300055863">
         <rdfs:label>Provenance Entry</rdfs:label>
@@ -3028,7 +3064,7 @@
       </crm:E52_Time-Span>
     </crm:P4_has_time-span>
     <crm:P9_consists_of>
-      <crm:E8_Acquisition rdf:about="https://centraalmuseum.nl/acquisition/4">
+      <crm:E8_Acquisition rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA#acquisition-4">
         <crm:P24_transferred_title_of>
           <crm:E22_Human-Made_Object rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA"/>
         </crm:P24_transferred_title_of>
