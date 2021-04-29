@@ -167,9 +167,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 64, met afb.</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1930-07-16</year_of_publication>
@@ -300,9 +297,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 8</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1934</year_of_publication>
@@ -318,9 +312,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 28</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1931</year_of_publication>
@@ -2857,8 +2848,6 @@ Samenstelling
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">62.484</link_resolve_time>
-    <xml_creation_time unit="mS" culture="en-US">1</xml_creation_time>
-    <response_time unit="mS" culture="en-US">101</response_time>
+    <link_resolve_time unit="mS" culture="en-US">127.8816</link_resolve_time>
   </diagnostic>
 </adlibXML>

@@ -151,9 +151,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 34</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Copies>
             <copy.number>cc206</copy.number>
           </Copies>
@@ -351,9 +348,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 8</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Rotterdam</place_of_publication>
             <year_of_publication>1904</year_of_publication>
@@ -469,9 +463,6 @@
       <Documentation>
         <documentation.page_reference>dl. 2 nr. 321</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1953</year_of_publication>
@@ -540,9 +531,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 9</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1956</year_of_publication>
@@ -980,9 +968,6 @@
       <Documentation>
         <documentation.page_reference>p. 48, afb. in kleur</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Copies>
             <copy.number>19/185</copy.number>
           </Copies>
@@ -3953,8 +3938,8 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">46.8633</link_resolve_time>
+    <link_resolve_time unit="mS" culture="en-US">313.1137</link_resolve_time>
     <xml_creation_time unit="mS" culture="en-US">1</xml_creation_time>
-    <response_time unit="mS" culture="en-US">113</response_time>
+    <response_time unit="mS" culture="en-US">3389</response_time>
   </diagnostic>
 </adlibXML>

@@ -407,9 +407,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 13, met afb.</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1935</year_of_publication>
@@ -561,9 +558,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 25, met afb.</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Rotterdam</place_of_publication>
             <year_of_publication>1933</year_of_publication>
@@ -579,9 +573,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 16, met afb.</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1930</year_of_publication>
@@ -5490,8 +5481,8 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">90.5577</link_resolve_time>
+    <link_resolve_time unit="mS" culture="en-US">217.4022</link_resolve_time>
     <xml_creation_time unit="mS" culture="en-US">2</xml_creation_time>
-    <response_time unit="mS" culture="en-US">220</response_time>
+    <response_time unit="mS" culture="en-US">1672</response_time>
   </diagnostic>
 </adlibXML>

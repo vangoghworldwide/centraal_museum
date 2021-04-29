@@ -116,9 +116,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 15, met afb.</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Title>
             <lead_word/>
             <title>French Paintings of the XIXth and XXth centuries. Collection of E.J. Wisselingh &amp; Co. Amsterdam, Holland</title>
@@ -463,9 +460,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 40</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Utrecht</place_of_publication>
             <year_of_publication>1916</year_of_publication>
@@ -3140,8 +3134,8 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">46.7316</link_resolve_time>
+    <link_resolve_time unit="mS" culture="en-US">78.1197</link_resolve_time>
     <xml_creation_time unit="mS" culture="en-US">1</xml_creation_time>
-    <response_time unit="mS" culture="en-US">104</response_time>
+    <response_time unit="mS" culture="en-US">1009</response_time>
   </diagnostic>
 </adlibXML>

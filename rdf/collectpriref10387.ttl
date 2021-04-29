@@ -88,16 +88,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/11682#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/11682#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/11682#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/11682#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/11682#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/11682#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/11682#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -248,16 +239,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/13680#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/13680#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/13680#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/13680#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/13680#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/13680#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/13680#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -320,16 +302,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/13687#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/13687#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/13687#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/13687#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/13687#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/13687#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/13687#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -843,16 +816,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/200001827#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/200001827#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300048715> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/200001827#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/200001827#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/200001827#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/200001827#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/200001827#journal>
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/200001827#journaltitle> ;
@@ -881,16 +845,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/200001828#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/200001828#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300048715> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/200001828#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/200001828#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/200001828#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/200001828#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/200001828#journal>
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/200001828#journaltitle> ;
@@ -1218,16 +1173,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/4065#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/4065#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/4065#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/4065#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/4065#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/4065#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/4065#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1252,16 +1198,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/4068#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/4068#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/4068#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/4068#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/4068#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/4068#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/4068#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1286,16 +1223,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/4957#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/4957#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/4957#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/4957#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/4957#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/4957#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/4957#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1388,16 +1316,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/7124#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/7124#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/7124#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/7124#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/7124#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/7124#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/7124#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1422,16 +1341,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/7690#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/7690#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/7690#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/7690#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/7690#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/7690#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/7690#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -2571,45 +2481,6 @@
     a crm:E39_Actor ;
     rdfs:label "Kunstforum der Bank Austria" .
 
-<https://centraalmuseum.nl/plaatje-1>
-    crm:P108i_was_produced_by <https://centraalmuseum.nl/plaatje-1#production> ;
-    crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/INVENTARISNUMMERS/gecropt/13968_07.tif> ;
-    crm:P2_has_type [
-        a crm:E55_Type ;
-        rdfs:label "normal lighting"
-    ] ;
-    a crm:E22_Human-Made_Object .
-
-<https://centraalmuseum.nl/plaatje-1#production>
-    crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
-    a crm:E12_Production .
-
-<https://centraalmuseum.nl/plaatje-5>
-    crm:P108i_was_produced_by <https://centraalmuseum.nl/plaatje-5#production> ;
-    crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X13968_02.tif> ;
-    crm:P2_has_type [
-        a crm:E55_Type ;
-        rdfs:label "normal lighting"
-    ] ;
-    a crm:E22_Human-Made_Object .
-
-<https://centraalmuseum.nl/plaatje-5#production>
-    crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
-    a crm:E12_Production .
-
-<https://centraalmuseum.nl/plaatje-6>
-    crm:P108i_was_produced_by <https://centraalmuseum.nl/plaatje-6#production> ;
-    crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X13968_03.tif> ;
-    crm:P2_has_type [
-        a crm:E55_Type ;
-        rdfs:label "normal lighting"
-    ] ;
-    a crm:E22_Human-Made_Object .
-
-<https://centraalmuseum.nl/plaatje-6#production>
-    crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
-    a crm:E12_Production .
-
 <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/INVENTARISNUMMERS/gecropt/13968_07.tif>
     dc:format "image/tiff" ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300215302> ;
@@ -3095,6 +2966,45 @@
     crm:P190_has_symbolic_content "13968" ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300312355> ;
     a crm:E42_Identifier .
+
+<https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#plaatje-1>
+    crm:P108i_was_produced_by <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#plaatje-1-production> ;
+    crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/INVENTARISNUMMERS/gecropt/13968_07.tif> ;
+    crm:P2_has_type [
+        a crm:E55_Type ;
+        rdfs:label "normal lighting"
+    ] ;
+    a crm:E22_Human-Made_Object .
+
+<https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#plaatje-1-production>
+    crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E12_Production .
+
+<https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#plaatje-5>
+    crm:P108i_was_produced_by <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#plaatje-5-production> ;
+    crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X13968_02.tif> ;
+    crm:P2_has_type [
+        a crm:E55_Type ;
+        rdfs:label "normal lighting"
+    ] ;
+    a crm:E22_Human-Made_Object .
+
+<https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#plaatje-5-production>
+    crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E12_Production .
+
+<https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#plaatje-6>
+    crm:P108i_was_produced_by <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#plaatje-6-production> ;
+    crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X13968_03.tif> ;
+    crm:P2_has_type [
+        a crm:E55_Type ;
+        rdfs:label "normal lighting"
+    ] ;
+    a crm:E22_Human-Made_Object .
+
+<https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#plaatje-6-production>
+    crm:P16_used_specific_object <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
+    a crm:E12_Production .
 
 <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#production>
     crm:P14_carried_out_by <https://data.rkd.nl/artists/32439> ;

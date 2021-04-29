@@ -581,8 +581,8 @@
             <!-- other images -->
             <crm:E22_Human-Made_Object>
                 <xsl:attribute name="rdf:about">
-                    <xsl:value-of select="$baseUri"/>
-                    <xsl:text>plaatje-</xsl:text>
+                    <xsl:value-of select="$uri"/>
+                    <xsl:text>#plaatje-</xsl:text>
                     <xsl:number/>
                 </xsl:attribute>
                 <crm:P2_has_type>
@@ -593,10 +593,10 @@
                 <crm:P108i_was_produced_by>
                     <crm:E12_Production>
                         <xsl:attribute name="rdf:about">
-                            <xsl:value-of select="$baseUri"/>
-                            <xsl:text>plaatje-</xsl:text>
+                            <xsl:value-of select="$uri"/>
+                            <xsl:text>#plaatje-</xsl:text>
                             <xsl:number/>
-                            <xsl:text>#production</xsl:text>
+                            <xsl:text>-production</xsl:text>
                         </xsl:attribute>
                         <crm:P16_used_specific_object>
                             <crm:E22_Human-Made_Object>

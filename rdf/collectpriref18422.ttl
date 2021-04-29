@@ -80,16 +80,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/12484#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/12484#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/12484#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/12484#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/12484#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/12484#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/12484#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -114,16 +105,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/12499#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/12499#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/12499#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/12499#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/12499#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/12499#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/12499#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -606,16 +588,7 @@
     crm:P16i_was_used_for <https://centraalmuseum.nl/documentation/3167#publication> ;
     crm:P1_is_identified_by <https://centraalmuseum.nl/documentation/3167#title> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300028051> ;
-    crm:P94i_was_created_by <https://centraalmuseum.nl/documentation/3167#creation> ;
     a crm:E33_Linguistic_Object .
-
-<https://centraalmuseum.nl/documentation/3167#creation>
-    crm:P14_carried_out_by <https://centraalmuseum.nl/documentation/3167#creator-1> ;
-    a crm:E65_Creation .
-
-<https://centraalmuseum.nl/documentation/3167#creator-1>
-    a crm:E39_Actor ;
-    rdfs:label "" .
 
 <https://centraalmuseum.nl/documentation/3167#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;

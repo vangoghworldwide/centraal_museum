@@ -225,9 +225,6 @@
       <Documentation>
         <documentation.page_reference>p. 287, cat. nr. 95; afb. in kleur op p. 183</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Antwerpen</place_of_publication>
             <year_of_publication>1991</year_of_publication>
@@ -428,9 +425,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 15</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1905</year_of_publication>
@@ -446,9 +440,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 15, met afb.</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1932</year_of_publication>
@@ -663,9 +654,6 @@
       <Documentation>
         <documentation.page_reference>cat. nr. 7</documentation.page_reference>
         <documentation.title>
-          <Author>
-            <author.name/>
-          </Author>
           <Publisher>
             <place_of_publication>Utrecht</place_of_publication>
             <year_of_publication>1905</year_of_publication>
@@ -4952,8 +4940,8 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">62.4922</link_resolve_time>
-    <xml_creation_time unit="mS" culture="en-US">1</xml_creation_time>
-    <response_time unit="mS" culture="en-US">149</response_time>
+    <link_resolve_time unit="mS" culture="en-US">231.029</link_resolve_time>
+    <xml_creation_time unit="mS" culture="en-US">2</xml_creation_time>
+    <response_time unit="mS" culture="en-US">2817</response_time>
   </diagnostic>
 </adlibXML>
