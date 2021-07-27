@@ -1,11 +1,16 @@
 <adlibXML>
   <recordList>
-    <record priref="18765" created="2015-06-15T22:38:59" modification="2021-03-10T10:39:50" selected="false">
+    <record priref="18765" created="2015-06-15T22:38:59" modification="2021-05-14T12:16:00" selected="false">
       <acquisition.date>1980-01-30</acquisition.date>
-      <acquisition.method>bruikleen Stichting Van Baaren Museum</acquisition.method>
-      <collection>beeldende kunst 1850 - heden</collection>
-      <collection>schilderkunst</collection>
-      <current_location.name>EXPO 4.3</current_location.name>
+      <acquisition.method>
+        <term>bruikleen Stichting Van Baaren Museum</term>
+      </acquisition.method>
+      <collection>
+        <term>beeldende kunst 1850 - heden</term>
+      </collection>
+      <collection>
+        <term>schilderkunst</term>
+      </collection>
       <gepubliceerd>x</gepubliceerd>
       <Alternative_number>
         <alternative_number>F306</alternative_number>
@@ -21,32 +26,48 @@
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>hoogte</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>hoogte</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>33</dimension.value>
       </Dimension>
       <Dimension>
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>breedte</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>breedte</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>46.5</dimension.value>
       </Dimension>
       <Dimension>
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>hoogte (met lijst)</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>hoogte (met lijst)</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>51.5</dimension.value>
       </Dimension>
       <Dimension>
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>breedte (met lijst)</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>breedte (met lijst)</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>64.5</dimension.value>
       </Dimension>
       <Documentation>
@@ -717,8 +738,11 @@
         <documentation.page_reference>cat. nr. 34</documentation.page_reference>
         <documentation.title>
           <Author>
-            <author.name/>
+            <author.name>Wentinck, Charles</author.name>
           </Author>
+          <Copies>
+            <copy.number>R09590</copy.number>
+          </Copies>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1956</year_of_publication>
@@ -727,7 +751,9 @@
             <lead_word/>
             <title>Vincent van Gogh 1853-1890 : Quelques oeuvres de l'&#233;poque 1881-1886 provenant de collections particuli&#232;res n&#233;erlandaises</title>
           </Title>
+          <pagination>[17 p.]</pagination>
           <priref>13694</priref>
+          <statement_of_responsibility>Charles Wentinck</statement_of_responsibility>
           <title_term_index/>
         </documentation.title>
       </Documentation>
@@ -5282,7 +5308,9 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
         <inscription.method/>
         <inscription.notes/>
         <inscription.position>n.v.t.</inscription.position>
-        <inscription.type>niet gesign.</inscription.type>
+        <inscription.type>
+          <term>niet gesign.</term>
+        </inscription.type>
       </Inscription>
       <Label>
         <label.text>Eind 1885 was Van Gogh naar Parijs vertrokken, waar de kennismaking met moderne kunst leidde tot een rigoureuze verandering van zijn schildertechniek en kleurgebruik. In deze Sous-Bois (Bosgezicht) is het beeldvlak geheel gevuld met felle kleurstippen en -streepjes, die de dwarreling van bladeren en bloemen nabootsen.</label.text>
@@ -5314,6 +5342,37 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
           <term>schilderij</term>
         </object_name>
       </Object_name>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>0000</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Galerie d'Art A. Schuffenecker</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>0000</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Galerie d'Art E. Blot</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>0000</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Galerie Charles Vincent, Parijs</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>0000</owner_hist.date.start>
+        <owner_hist.owner>
+          <Internet_address>
+            <url>https://rkd.nl/explore/artists/440726</url>
+          </Internet_address>
+          <name>Baaren, L.H. en J.F. van</name>
+        </owner_hist.owner>
+      </Owner_history>
       <PIDother>
         <PID_other_URI>https://vangoghworldwide.org/data/artwork/F306</PID_other_URI>
       </PIDother>
@@ -5328,7 +5387,10 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
           <death.date.start>1890-07-29</death.date.start>
           <death.place>Auvers sur Oise</death.place>
           <Internet_address>
-            <url> https://rkd.nl/explore/artists/32439</url>
+            <url>https://rkd.nl/explore/artists/32439</url>
+          </Internet_address>
+          <Internet_address>
+            <url>https://www.wikidata.org/wiki/Q5582</url>
           </Internet_address>
           <name>Gogh, Vincent van</name>
           <priref>686</priref>
@@ -5346,16 +5408,32 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
       <Reproduction>
         <reproduction.reference>
           <ACCESS_RIGHTS>
-            <record_access.user>cmubeelddoc</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUBeelddoc</value>
+              <value lang="0">CMUBeelddoc</value>
+              <value lang="1">CMUBeelddoc</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisbeeldbank</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisbeeldbank</value>
+              <value lang="0">cmuiisbeeldbank</value>
+              <value lang="1">cmuiisbeeldbank</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisoai</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisoai</value>
+              <value lang="0">cmuiisoai</value>
+              <value lang="1">cmuiisoai</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuusers</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUusers</value>
+              <value lang="0">CMUusers</value>
+              <value lang="1">CMUusers</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <input.date>2020-02-03</input.date>
           <priref>60037</priref>
@@ -5367,16 +5445,32 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
       <Reproduction>
         <reproduction.reference>
           <ACCESS_RIGHTS>
-            <record_access.user>cmubeelddoc</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUBeelddoc</value>
+              <value lang="0">CMUBeelddoc</value>
+              <value lang="1">CMUBeelddoc</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisbeeldbank</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisbeeldbank</value>
+              <value lang="0">cmuiisbeeldbank</value>
+              <value lang="1">cmuiisbeeldbank</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisoai</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisoai</value>
+              <value lang="0">cmuiisoai</value>
+              <value lang="1">cmuiisoai</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuusers</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUusers</value>
+              <value lang="0">CMUusers</value>
+              <value lang="1">CMUusers</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <input.date>2020-02-03</input.date>
           <priref>60038</priref>
@@ -5388,16 +5482,32 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
       <Reproduction>
         <reproduction.reference>
           <ACCESS_RIGHTS>
-            <record_access.user>cmubeelddoc</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUBeelddoc</value>
+              <value lang="0">CMUBeelddoc</value>
+              <value lang="1">CMUBeelddoc</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisbeeldbank</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisbeeldbank</value>
+              <value lang="0">cmuiisbeeldbank</value>
+              <value lang="1">cmuiisbeeldbank</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisoai</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisoai</value>
+              <value lang="0">cmuiisoai</value>
+              <value lang="1">cmuiisoai</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuusers</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUusers</value>
+              <value lang="0">CMUusers</value>
+              <value lang="1">CMUusers</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <input.date>2020-02-03</input.date>
           <priref>60039</priref>
@@ -5409,16 +5519,32 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
       <Reproduction>
         <reproduction.reference>
           <ACCESS_RIGHTS>
-            <record_access.user>cmubeelddoc</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUBeelddoc</value>
+              <value lang="0">CMUBeelddoc</value>
+              <value lang="1">CMUBeelddoc</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisbeeldbank</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisbeeldbank</value>
+              <value lang="0">cmuiisbeeldbank</value>
+              <value lang="1">cmuiisbeeldbank</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisoai</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisoai</value>
+              <value lang="0">cmuiisoai</value>
+              <value lang="1">cmuiisoai</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuusers</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUusers</value>
+              <value lang="0">CMUusers</value>
+              <value lang="1">CMUusers</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <input.date>2020-02-03</input.date>
           <priref>60040</priref>
@@ -5455,15 +5581,8 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
       <institution.name>Centraal Museum</institution.name>
       <notes>Parijse periode, zomer 1887. Uit deze periode diverse "Sous Bois" (mogelijk betreft het Asni&#233;res of Bois de Boulogne), vgl. Cat. Mus. Kr&#246;ller-M&#252;ller nr. 213</notes>
       <object_number>22123</object_number>
-      <owner_hist.date.start>0000</owner_hist.date.start>
-      <owner_hist.date.start>0000</owner_hist.date.start>
-      <owner_hist.date.start>0000</owner_hist.date.start>
-      <owner_hist.date.start>0000</owner_hist.date.start>
-      <owner_hist.owner>Galerie d'Art A. Schuffenecker</owner_hist.owner>
-      <owner_hist.owner>Galerie d'Art E. Blot</owner_hist.owner>
-      <owner_hist.owner>Galerie Charles Vincent, Parijs</owner_hist.owner>
-      <owner_hist.owner>Baaren, L.H. en J.F. van</owner_hist.owner>
       <priref>18765</priref>
+      <reproduction.freeofcopyright>x</reproduction.freeofcopyright>
       <techniek.vrije.tekst>olieverf op doek</techniek.vrije.tekst>
     </record>
   </recordList>
@@ -5481,8 +5600,8 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">217.4022</link_resolve_time>
-    <xml_creation_time unit="mS" culture="en-US">2</xml_creation_time>
-    <response_time unit="mS" culture="en-US">1672</response_time>
+    <link_resolve_time unit="mS" culture="en-US">594.9931</link_resolve_time>
+    <xml_creation_time unit="mS" culture="en-US">1</xml_creation_time>
+    <response_time unit="mS" culture="en-US">4109</response_time>
   </diagnostic>
 </adlibXML>

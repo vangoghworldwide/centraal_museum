@@ -1,11 +1,16 @@
 <adlibXML>
   <recordList>
-    <record priref="18417" created="2015-06-15T22:38:59" modification="2020-10-27T16:45:17" selected="false">
+    <record priref="18417" created="2015-06-15T22:38:59" modification="2021-05-14T12:15:36" selected="false">
       <acquisition.date>1980-01-30</acquisition.date>
-      <acquisition.method>bruikleen Stichting Van Baaren Museum</acquisition.method>
-      <collection>beeldende kunst 1850 - heden</collection>
-      <collection>prenten en tekeningen</collection>
-      <current_location.name>schilderijendepot 2, rek 1 A</current_location.name>
+      <acquisition.method>
+        <term>bruikleen Stichting Van Baaren Museum</term>
+      </acquisition.method>
+      <collection>
+        <term>beeldende kunst 1850 - heden</term>
+      </collection>
+      <collection>
+        <term>prenten en tekeningen</term>
+      </collection>
       <gepubliceerd>x</gepubliceerd>
       <Alternative_number>
         <alternative_number>F884</alternative_number>
@@ -21,32 +26,48 @@
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>hoogte (dagmaat)</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>hoogte (dagmaat)</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>58</dimension.value>
       </Dimension>
       <Dimension>
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>breedte (dagmaat)</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>breedte (dagmaat)</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>46</dimension.value>
       </Dimension>
       <Dimension>
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>hoogte met lijst</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>hoogte met lijst</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>72</dimension.value>
       </Dimension>
       <Dimension>
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>breedte met lijst</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>breedte met lijst</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>60</dimension.value>
       </Dimension>
       <Documentation>
@@ -480,8 +501,11 @@
         <documentation.page_reference>cat. nr. 1, met afb.</documentation.page_reference>
         <documentation.title>
           <Author>
-            <author.name/>
+            <author.name>Wentinck, Charles</author.name>
           </Author>
+          <Copies>
+            <copy.number>R09590</copy.number>
+          </Copies>
           <Publisher>
             <place_of_publication>Amsterdam</place_of_publication>
             <year_of_publication>1956</year_of_publication>
@@ -490,7 +514,9 @@
             <lead_word/>
             <title>Vincent van Gogh 1853-1890 : Quelques oeuvres de l'&#233;poque 1881-1886 provenant de collections particuli&#232;res n&#233;erlandaises</title>
           </Title>
+          <pagination>[17 p.]</pagination>
           <priref>13694</priref>
+          <statement_of_responsibility>Charles Wentinck</statement_of_responsibility>
           <title_term_index/>
         </documentation.title>
       </Documentation>
@@ -3121,7 +3147,9 @@
         <inscription.method/>
         <inscription.notes/>
         <inscription.position/>
-        <inscription.type>niet gesign., niet gedat.</inscription.type>
+        <inscription.type>
+          <term>niet gesign., niet gedat.</term>
+        </inscription.type>
       </Inscription>
       <Material>
         <material>
@@ -3158,6 +3186,44 @@
           <term>tekening</term>
         </object_name>
       </Object_name>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>0000</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Kunsthandel J. Hageraats</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>0000</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Kunsthandel De Zonnebloem</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>0000</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Hannema-de Stuers, mevr. H.E.</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1937</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Hannema, Dirk</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1952</owner_hist.date.start>
+        <owner_hist.owner>
+          <Internet_address>
+            <url>https://rkd.nl/explore/artists/440726</url>
+          </Internet_address>
+          <name>Baaren, L.H. en J.F. van</name>
+        </owner_hist.owner>
+      </Owner_history>
       <PIDother>
         <PID_other_URI>https://vangoghworldwide.org/data/artwork/F884</PID_other_URI>
       </PIDother>
@@ -3172,7 +3238,10 @@
           <death.date.start>1890-07-29</death.date.start>
           <death.place>Auvers sur Oise</death.place>
           <Internet_address>
-            <url> https://rkd.nl/explore/artists/32439</url>
+            <url>https://rkd.nl/explore/artists/32439</url>
+          </Internet_address>
+          <Internet_address>
+            <url>https://www.wikidata.org/wiki/Q5582</url>
           </Internet_address>
           <name>Gogh, Vincent van</name>
           <priref>686</priref>
@@ -3190,16 +3259,32 @@
       <Reproduction>
         <reproduction.reference>
           <ACCESS_RIGHTS>
-            <record_access.user>cmubeelddoc</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUBeelddoc</value>
+              <value lang="0">CMUBeelddoc</value>
+              <value lang="1">CMUBeelddoc</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisbeeldbank</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisbeeldbank</value>
+              <value lang="0">cmuiisbeeldbank</value>
+              <value lang="1">cmuiisbeeldbank</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisoai</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisoai</value>
+              <value lang="0">cmuiisoai</value>
+              <value lang="1">cmuiisoai</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuusers</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUusers</value>
+              <value lang="0">CMUusers</value>
+              <value lang="1">CMUusers</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <input.date>2020-02-02</input.date>
           <priref>59941</priref>
@@ -3211,16 +3296,32 @@
       <Reproduction>
         <reproduction.reference>
           <ACCESS_RIGHTS>
-            <record_access.user>cmubeelddoc</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUBeelddoc</value>
+              <value lang="0">CMUBeelddoc</value>
+              <value lang="1">CMUBeelddoc</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisbeeldbank</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisbeeldbank</value>
+              <value lang="0">cmuiisbeeldbank</value>
+              <value lang="1">cmuiisbeeldbank</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisoai</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisoai</value>
+              <value lang="0">cmuiisoai</value>
+              <value lang="1">cmuiisoai</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuusers</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUusers</value>
+              <value lang="0">CMUusers</value>
+              <value lang="1">CMUusers</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <input.date>2020-02-02</input.date>
           <priref>59942</priref>
@@ -3248,18 +3349,9 @@
       <institution.name>Centraal Museum</institution.name>
       <notes>Vincent maakte deze tekening tijdens zijn verblijf van april tot december 1881 in zijn ouderlijk huis te Etten. Het werk is niet gesigneerd. Een tekening met hetzelfde meisje als onderwerp echter zittend op de grond is wel gesigneerd. (Baart de la Faille nr. 873). In zijn brieven aan zijn broer Theo (I.165; Van Crimpen e.a. 1990, nr. 192) kan hij, wanneer hij schrijft 'Heb dezer dagen ook eens kinderen getekend en dat is mij erg goed bevallen' o.a. op dit meisje doelen. Hij maakte deze tekening in ieder geval als studie.</notes>
       <object_number>21785</object_number>
-      <owner_hist.date.start>0000</owner_hist.date.start>
-      <owner_hist.date.start>0000</owner_hist.date.start>
-      <owner_hist.date.start>0000</owner_hist.date.start>
-      <owner_hist.date.start>1937</owner_hist.date.start>
-      <owner_hist.date.start>1952</owner_hist.date.start>
-      <owner_hist.owner>Kunsthandel J. Hageraats</owner_hist.owner>
-      <owner_hist.owner>Kunsthandel De Zonnebloem</owner_hist.owner>
-      <owner_hist.owner>Hannema-de Stuers, mevr. H.E.</owner_hist.owner>
-      <owner_hist.owner>Hannema, Dirk</owner_hist.owner>
-      <owner_hist.owner>Baaren, L.H. en J.F. van</owner_hist.owner>
       <priref>18417</priref>
       <production.date.notes>april-december</production.date.notes>
+      <reproduction.freeofcopyright>x</reproduction.freeofcopyright>
       <techniek.vrije.tekst>zwart en wit krijt en aquarel op papier</techniek.vrije.tekst>
     </record>
   </recordList>
@@ -3277,6 +3369,8 @@
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">156.375</link_resolve_time>
+    <link_resolve_time unit="mS" culture="en-US">218.7077</link_resolve_time>
+    <xml_creation_time unit="mS" culture="en-US">1</xml_creation_time>
+    <response_time unit="mS" culture="en-US">602</response_time>
   </diagnostic>
 </adlibXML>

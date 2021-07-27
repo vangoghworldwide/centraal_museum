@@ -1,14 +1,22 @@
 <adlibXML>
   <recordList>
-    <record priref="10387" created="2015-06-15T22:38:59" modification="2020-12-02T11:31:55" selected="false">
+    <record priref="10387" created="2015-06-15T22:38:59" modification="2021-06-14T11:15:55" selected="false">
       <acquisition.date>1963-04-03</acquisition.date>
-      <acquisition.method>schenking</acquisition.method>
-      <collection>beeldende kunst 1850 - heden</collection>
-      <collection>schilderkunst</collection>
+      <acquisition.method>
+        <PIDother>
+          <PID_other_URI>http://vocab.getty.edu/aat/300417638</PID_other_URI>
+        </PIDother>
+        <term>schenking</term>
+      </acquisition.method>
+      <collection>
+        <term>beeldende kunst 1850 - heden</term>
+      </collection>
+      <collection>
+        <term>schilderkunst</term>
+      </collection>
       <content.motif.general>
         <term>landschap</term>
       </content.motif.general>
-      <current_location.name>Centro Culturale Altinate San Gaetano</current_location.name>
       <gepubliceerd>x</gepubliceerd>
       <Alternative_number>
         <alternative_number>F121</alternative_number>
@@ -16,7 +24,9 @@
       </Alternative_number>
       <Associated_subject>
         <association.subject/>
-        <association.subject.association>herkomst</association.subject.association>
+        <association.subject.association>
+          <term>herkomst</term>
+        </association.subject.association>
         <association.subject.date.start/>
         <association.subject.note>cf. J.B. de la Faille, 1939 The works of Vincent van Gogh, Amsterdam, 1970, p. 616</association.subject.note>
       </Associated_subject>
@@ -48,40 +58,60 @@
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>hoogte</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>hoogte</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>53.3</dimension.value>
       </Dimension>
       <Dimension>
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>breedte</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>breedte</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>92.6</dimension.value>
       </Dimension>
       <Dimension>
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>hoogte (met lijst)</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>hoogte (met lijst)</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>79</dimension.value>
       </Dimension>
       <Dimension>
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>breedte (met lijst)</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>breedte (met lijst)</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>118</dimension.value>
       </Dimension>
       <Dimension>
         <dimension.notes/>
         <dimension.part/>
         <dimension.precision/>
-        <dimension.type>diepte (met lijst)</dimension.type>
-        <dimension.unit>cm</dimension.unit>
+        <dimension.type>
+          <term>diepte (met lijst)</term>
+        </dimension.type>
+        <dimension.unit>
+          <term>cm</term>
+        </dimension.unit>
         <dimension.value>10</dimension.value>
       </Dimension>
       <Documentation>
@@ -1137,6 +1167,10 @@
           <title_term_index/>
         </documentation.title>
       </Documentation>
+      <Edit>
+        <edit.date>2021-06-14</edit.date>
+        <edit.time>11:15:53</edit.time>
+      </Edit>
       <Edit>
         <edit.date>2020-12-02</edit.date>
         <edit.time>11:31:53</edit.time>
@@ -3701,7 +3735,7 @@ Op de tentoonstelling in het Centraal Museum hingen onder meer werken uit eigen 
             <object.object_number>16463</object.object_number>
           </Object>
           <Object>
-            <object.object_number/>
+            <object.object_number>16465</object.object_number>
           </Object>
           <Object>
             <object.object_number>16466</object.object_number>
@@ -4459,7 +4493,9 @@ De opmerking moet dan ook gezien worden als een politiek statement: het Centraal
         <inscription.method/>
         <inscription.notes/>
         <inscription.position/>
-        <inscription.type>niet gedateerd</inscription.type>
+        <inscription.type>
+          <term>niet gedateerd</term>
+        </inscription.type>
       </Inscription>
       <Material>
         <material>
@@ -4496,6 +4532,72 @@ De opmerking moet dan ook gezien worden als een politiek statement: het Centraal
           <term>schilderij</term>
         </object_name>
       </Object_name>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1885</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Gogh-Carbentus, A.C. van, Nuenen/Breda</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1886</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Schrauwen</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1902</owner_hist.date.start>
+        <owner_hist.owner>
+          <Internet_address>
+            <url>https://rkd.nl/explore/artists/494218</url>
+          </Internet_address>
+          <name>Couvreur, J.C., Breda</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1902</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Bakel, W. van en C. Mouwen, Breda</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1904-07</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Ribbius Peletier, G.</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1930</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Ribbius Peletier-Wijbelingh, A.L.</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1939</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Ubbens-Ribbius Peletier, mevr. A.L.</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1961</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Ubbens-Ribbius Peletier, mevr. A.L., de erven van</name>
+        </owner_hist.owner>
+      </Owner_history>
+      <Owner_history>
+        <owner_hist.date.end/>
+        <owner_hist.date.start>1963</owner_hist.date.start>
+        <owner_hist.owner>
+          <name>Centraal Museum</name>
+        </owner_hist.owner>
+      </Owner_history>
       <PIDother>
         <PID_other_URI>https://vangoghworldwide.org/data/artwork/F121</PID_other_URI>
       </PIDother>
@@ -4510,7 +4612,10 @@ De opmerking moet dan ook gezien worden als een politiek statement: het Centraal
           <death.date.start>1890-07-29</death.date.start>
           <death.place>Auvers sur Oise</death.place>
           <Internet_address>
-            <url> https://rkd.nl/explore/artists/32439</url>
+            <url>https://rkd.nl/explore/artists/32439</url>
+          </Internet_address>
+          <Internet_address>
+            <url>https://www.wikidata.org/wiki/Q5582</url>
           </Internet_address>
           <name>Gogh, Vincent van</name>
           <priref>686</priref>
@@ -4528,19 +4633,39 @@ De opmerking moet dan ook gezien worden als een politiek statement: het Centraal
       <Reproduction>
         <reproduction.reference>
           <ACCESS_RIGHTS>
-            <record_access.user>cmubeelddoc</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUBeelddoc</value>
+              <value lang="0">CMUBeelddoc</value>
+              <value lang="1">CMUBeelddoc</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisbeeldbank</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisbeeldbank</value>
+              <value lang="0">cmuiisbeeldbank</value>
+              <value lang="1">cmuiisbeeldbank</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisef</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisef</value>
+              <value lang="0">cmuiisef</value>
+              <value lang="1">cmuiisef</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisoai</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisoai</value>
+              <value lang="0">cmuiisoai</value>
+              <value lang="1">cmuiisoai</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuusers</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUusers</value>
+              <value lang="0">CMUusers</value>
+              <value lang="1">CMUusers</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <input.date>2020-02-01</input.date>
           <priref>54921</priref>
@@ -4560,16 +4685,32 @@ De opmerking moet dan ook gezien worden als een politiek statement: het Centraal
       <Reproduction>
         <reproduction.reference>
           <ACCESS_RIGHTS>
-            <record_access.user>cmubeelddoc</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUBeelddoc</value>
+              <value lang="0">CMUBeelddoc</value>
+              <value lang="1">CMUBeelddoc</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisbeeldbank</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisbeeldbank</value>
+              <value lang="0">cmuiisbeeldbank</value>
+              <value lang="1">cmuiisbeeldbank</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisoai</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisoai</value>
+              <value lang="0">cmuiisoai</value>
+              <value lang="1">cmuiisoai</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuusers</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUusers</value>
+              <value lang="0">CMUusers</value>
+              <value lang="1">CMUusers</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <input.date>2020-02-02</input.date>
           <priref>59498</priref>
@@ -4581,16 +4722,32 @@ De opmerking moet dan ook gezien worden als een politiek statement: het Centraal
       <Reproduction>
         <reproduction.reference>
           <ACCESS_RIGHTS>
-            <record_access.user>cmubeelddoc</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUBeelddoc</value>
+              <value lang="0">CMUBeelddoc</value>
+              <value lang="1">CMUBeelddoc</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisbeeldbank</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisbeeldbank</value>
+              <value lang="0">cmuiisbeeldbank</value>
+              <value lang="1">cmuiisbeeldbank</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisoai</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisoai</value>
+              <value lang="0">cmuiisoai</value>
+              <value lang="1">cmuiisoai</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuusers</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUusers</value>
+              <value lang="0">CMUusers</value>
+              <value lang="1">CMUusers</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <input.date>2020-02-02</input.date>
           <priref>59499</priref>
@@ -4602,16 +4759,32 @@ De opmerking moet dan ook gezien worden als een politiek statement: het Centraal
       <Reproduction>
         <reproduction.reference>
           <ACCESS_RIGHTS>
-            <record_access.user>cmubeelddoc</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUBeelddoc</value>
+              <value lang="0">CMUBeelddoc</value>
+              <value lang="1">CMUBeelddoc</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisbeeldbank</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisbeeldbank</value>
+              <value lang="0">cmuiisbeeldbank</value>
+              <value lang="1">cmuiisbeeldbank</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuiisoai</record_access.user>
+            <record_access.user>
+              <value lang="neutral">cmuiisoai</value>
+              <value lang="0">cmuiisoai</value>
+              <value lang="1">cmuiisoai</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <ACCESS_RIGHTS>
-            <record_access.user>cmuusers</record_access.user>
+            <record_access.user>
+              <value lang="neutral">CMUusers</value>
+              <value lang="0">CMUusers</value>
+              <value lang="1">CMUusers</value>
+            </record_access.user>
           </ACCESS_RIGHTS>
           <input.date>2020-02-02</input.date>
           <priref>59500</priref>
@@ -4654,26 +4827,9 @@ De opmerking moet dan ook gezien worden als een politiek statement: het Centraal
       <input.date>1993-03-03</input.date>
       <institution.name>Centraal Museum</institution.name>
       <object_number>13968</object_number>
-      <owner_hist.date.start>1885</owner_hist.date.start>
-      <owner_hist.date.start>1886</owner_hist.date.start>
-      <owner_hist.date.start>1902</owner_hist.date.start>
-      <owner_hist.date.start>1902</owner_hist.date.start>
-      <owner_hist.date.start>1904-07</owner_hist.date.start>
-      <owner_hist.date.start>1930</owner_hist.date.start>
-      <owner_hist.date.start>1939</owner_hist.date.start>
-      <owner_hist.date.start>1961</owner_hist.date.start>
-      <owner_hist.date.start>1963</owner_hist.date.start>
-      <owner_hist.owner>Gogh-Carbentus, A.C. van, Nuenen/Breda</owner_hist.owner>
-      <owner_hist.owner>Schrauwen</owner_hist.owner>
-      <owner_hist.owner>Couvreur, J.C., Breda</owner_hist.owner>
-      <owner_hist.owner>Bakel, W. van en C. Mouwen, Breda</owner_hist.owner>
-      <owner_hist.owner>Ribbius Peletier, G.</owner_hist.owner>
-      <owner_hist.owner>Ribbius Peletier-Wijbelingh, A.L.</owner_hist.owner>
-      <owner_hist.owner>Ubbens-Ribbius Peletier, mevr. A.L.</owner_hist.owner>
-      <owner_hist.owner>Ubbens-Ribbius Peletier, mevr. A.L., de erven van</owner_hist.owner>
-      <owner_hist.owner>Centraal Museum</owner_hist.owner>
       <priref>10387</priref>
       <production.date.notes>(1885) (Baart de la Faille)</production.date.notes>
+      <reproduction.freeofcopyright>x</reproduction.freeofcopyright>
       <techniek.vrije.tekst>olieverf op doek, geplakt op paneel</techniek.vrije.tekst>
     </record>
   </recordList>
@@ -4691,8 +4847,8 @@ De opmerking moet dan ook gezien worden als een politiek statement: het Centraal
     <cgistring>
       <param name="database">collect</param>
     </cgistring>
-    <link_resolve_time unit="mS" culture="en-US">328.733</link_resolve_time>
-    <xml_creation_time unit="mS" culture="en-US">2</xml_creation_time>
-    <response_time unit="mS" culture="en-US">5255</response_time>
+    <link_resolve_time unit="mS" culture="en-US">1754.9328</link_resolve_time>
+    <xml_creation_time unit="mS" culture="en-US">3</xml_creation_time>
+    <response_time unit="mS" culture="en-US">17438</response_time>
   </diagnostic>
 </adlibXML>

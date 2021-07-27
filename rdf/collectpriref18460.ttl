@@ -271,7 +271,7 @@
 
 <https://centraalmuseum.nl/documentation/13694#creator-1>
     a crm:E39_Actor ;
-    rdfs:label "" .
+    rdfs:label "Wentinck, Charles" .
 
 <https://centraalmuseum.nl/documentation/13694#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1230,9 +1230,17 @@
     crm:P2_has_type <http://vocab.getty.edu/aat/300215302> ;
     a crm:E36_Visual_Item .
 
+<https://data.rkd.nl/artists/12346>
+    a crm:E39_Actor ;
+    rdfs:label "Bremmer, H.P. [dr.]" .
+
 <https://data.rkd.nl/artists/32439>
     a crm:E39_Actor ;
     rdfs:label "Gogh, Vincent van" .
+
+<https://data.rkd.nl/artists/440726>
+    a crm:E39_Actor ;
+    rdfs:label "Baaren, L.H. en J.F. van" .
 
 <https://data.rkd.nl/artists/493820>
     a crm:E39_Actor ;
@@ -1487,18 +1495,12 @@
     a crm:E8_Acquisition .
 
 <https://hdl.handle.net/21.12130/collect.50BF74D0-ABED-41DF-B17B-1B18613772EB#acquisition-4>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Bremmer, H.P. [dr.]"
-    ] ;
+    crm:P22_transferred_title_to <https://data.rkd.nl/artists/12346> ;
     crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.50BF74D0-ABED-41DF-B17B-1B18613772EB> ;
     a crm:E8_Acquisition .
 
 <https://hdl.handle.net/21.12130/collect.50BF74D0-ABED-41DF-B17B-1B18613772EB#acquisition-5>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Baaren, L.H. en J.F. van"
-    ] ;
+    crm:P22_transferred_title_to <https://data.rkd.nl/artists/440726> ;
     crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.50BF74D0-ABED-41DF-B17B-1B18613772EB> ;
     a crm:E8_Acquisition .
 
@@ -1577,10 +1579,7 @@
     a crm:E7_Activity .
 
 <https://hdl.handle.net/21.12130/collect.50BF74D0-ABED-41DF-B17B-1B18613772EB#provenance-4>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Bremmer, H.P. [dr.]"
-    ] ;
+    crm:P14_carried_out_by <https://data.rkd.nl/artists/12346> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
     crm:P4_has_time-span [
         crm:P82a_begin_of_the_begin ""^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1591,10 +1590,7 @@
     a crm:E7_Activity .
 
 <https://hdl.handle.net/21.12130/collect.50BF74D0-ABED-41DF-B17B-1B18613772EB#provenance-5>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Baaren, L.H. en J.F. van"
-    ] ;
+    crm:P14_carried_out_by <https://data.rkd.nl/artists/440726> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
     crm:P4_has_time-span [
         crm:P82a_begin_of_the_begin "1955-04-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;

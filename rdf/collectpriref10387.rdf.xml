@@ -3872,7 +3872,7 @@
       </crm:E55_Type>
     </crm:P2_has_type>
     <crm:P14_carried_out_by>
-      <crm:E39_Actor>
+      <crm:E39_Actor rdf:about="https://data.rkd.nl/artists/494218">
         <rdfs:label>Couvreur, J.C., Breda</rdfs:label>
       </crm:E39_Actor>
     </crm:P14_carried_out_by>
@@ -3888,7 +3888,7 @@
           <crm:E22_Human-Made_Object rdf:about="https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114"/>
         </crm:P24_transferred_title_of>
         <crm:P22_transferred_title_to>
-          <crm:E39_Actor>
+          <crm:E39_Actor rdf:about="https://data.rkd.nl/artists/494218">
             <rdfs:label>Couvreur, J.C., Breda</rdfs:label>
           </crm:E39_Actor>
         </crm:P22_transferred_title_to>

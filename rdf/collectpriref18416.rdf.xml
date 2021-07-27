@@ -1451,7 +1451,7 @@
               <crm:E65_Creation rdf:about="https://centraalmuseum.nl/documentation/13694#creation">
                 <crm:P14_carried_out_by>
                   <crm:E39_Actor rdf:about="https://centraalmuseum.nl/documentation/13694#creator-1">
-                    <rdfs:label/>
+                    <rdfs:label>Wentinck, Charles</rdfs:label>
                   </crm:E39_Actor>
                 </crm:P14_carried_out_by>
               </crm:E65_Creation>
@@ -2927,7 +2927,7 @@
       </crm:E55_Type>
     </crm:P2_has_type>
     <crm:P14_carried_out_by>
-      <crm:E39_Actor>
+      <crm:E39_Actor rdf:about="https://data.rkd.nl/artists/12346">
         <rdfs:label>Bremmer, H.P. [dr.]</rdfs:label>
       </crm:E39_Actor>
     </crm:P14_carried_out_by>
@@ -2943,7 +2943,7 @@
           <crm:E22_Human-Made_Object rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA"/>
         </crm:P24_transferred_title_of>
         <crm:P22_transferred_title_to>
-          <crm:E39_Actor>
+          <crm:E39_Actor rdf:about="https://data.rkd.nl/artists/12346">
             <rdfs:label>Bremmer, H.P. [dr.]</rdfs:label>
           </crm:E39_Actor>
         </crm:P22_transferred_title_to>
@@ -3017,7 +3017,7 @@
       </crm:E55_Type>
     </crm:P2_has_type>
     <crm:P14_carried_out_by>
-      <crm:E39_Actor>
+      <crm:E39_Actor rdf:about="https://data.rkd.nl/artists/440726">
         <rdfs:label>Baaren, L.H. en J.F. van</rdfs:label>
       </crm:E39_Actor>
     </crm:P14_carried_out_by>
@@ -3033,7 +3033,7 @@
           <crm:E22_Human-Made_Object rdf:about="https://hdl.handle.net/21.12130/collect.58DD7A1F-B1D3-415B-9D2F-125E849D6ECA"/>
         </crm:P24_transferred_title_of>
         <crm:P22_transferred_title_to>
-          <crm:E39_Actor>
+          <crm:E39_Actor rdf:about="https://data.rkd.nl/artists/440726">
             <rdfs:label>Baaren, L.H. en J.F. van</rdfs:label>
           </crm:E39_Actor>
         </crm:P22_transferred_title_to>

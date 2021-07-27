@@ -325,7 +325,7 @@
 
 <https://centraalmuseum.nl/documentation/13694#creator-1>
     a crm:E39_Actor ;
-    rdfs:label "" .
+    rdfs:label "Wentinck, Charles" .
 
 <https://centraalmuseum.nl/documentation/13694#publication>
     crm:P2_has_type <http://vocab.getty.edu/aat/300054686> ;
@@ -1390,6 +1390,10 @@
     a crm:E39_Actor ;
     rdfs:label "Gogh, Vincent van" .
 
+<https://data.rkd.nl/artists/440726>
+    a crm:E39_Actor ;
+    rdfs:label "Baaren, L.H. en J.F. van" .
+
 <https://data.rkd.nl/artists/493820>
     a crm:E39_Actor ;
     rdfs:label "Centraal Museum" .
@@ -1671,10 +1675,7 @@
     a crm:E8_Acquisition .
 
 <https://hdl.handle.net/21.12130/collect.40CE3EE8-2713-42F0-BD77-26616A6521A7#acquisition-5>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Baaren, L.H. en J.F. van"
-    ] ;
+    crm:P22_transferred_title_to <https://data.rkd.nl/artists/440726> ;
     crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.40CE3EE8-2713-42F0-BD77-26616A6521A7> ;
     a crm:E8_Acquisition .
 
@@ -1767,10 +1768,7 @@
     a crm:E7_Activity .
 
 <https://hdl.handle.net/21.12130/collect.40CE3EE8-2713-42F0-BD77-26616A6521A7#provenance-5>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Baaren, L.H. en J.F. van"
-    ] ;
+    crm:P14_carried_out_by <https://data.rkd.nl/artists/440726> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
     crm:P4_has_time-span [
         crm:P82a_begin_of_the_begin "1952-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;

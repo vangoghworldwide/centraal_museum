@@ -100,7 +100,7 @@
 
     </crm:E22_Human-Made_Object>
 
-    <xsl:apply-templates select="owner_hist.owner">
+    <xsl:apply-templates select="Owner_history">
         <xsl:with-param name="uri" select="PIDwork/PID_work_URI"/>
     </xsl:apply-templates>
 
@@ -380,13 +380,13 @@
 <xsl:template match="Dimension">
     <xsl:variable name="dimtype">
         <xsl:choose>
-            <xsl:when test="string(dimension.type/value)">
-                <xsl:value-of select="dimension.type/value"/>
+            <xsl:when test="string(dimension.type/term)">
+                <xsl:value-of select="dimension.type/term"/>
             </xsl:when>
             <xsl:when test="string(dimension.type)">
                 <xsl:value-of select="dimension.type"/>
             </xsl:when>
-            <xsl:when test="not(string(dimension.type/value))">
+            <xsl:when test="not(string(dimension.type/term))">
                 <xsl:text>dimtype_empty</xsl:text>
             </xsl:when>
             <xsl:when test="not(string(dimension.type))">
@@ -445,14 +445,14 @@
                     <xsl:value-of select="dimension.value"/>
                 </crm:P90_has_value>
                 <xsl:choose>
-                    <xsl:when test="dimension.unit = 'cm' or dimension.unit/value = 'cm'">
+                    <xsl:when test="dimension.unit = 'cm' or dimension.unit/term = 'cm'">
                         <crm:P91_has_unit>
                             <crm:E58_Measurement_Unit rdf:about="http://vocab.getty.edu/aat/300379098">
                                 <rdfs:label>centimeters</rdfs:label>
                             </crm:E58_Measurement_Unit>
                         </crm:P91_has_unit>
                     </xsl:when>
-                    <xsl:when test="dimension.unit = 'mm' or dimension.unit/value = 'mm'">
+                    <xsl:when test="dimension.unit = 'mm' or dimension.unit/term = 'mm'">
                         <crm:P91_has_unit>
                             <crm:E58_Measurement_Unit rdf:about="http://vocab.getty.edu/aat/300379097">
                                 <rdfs:label>millimeters</rdfs:label>
@@ -933,7 +933,7 @@
 </xsl:template>
 
 <!-- provenance -->
-<xsl:template match="owner_hist.owner">
+<xsl:template match="Owner_history">
     <xsl:param name="uri"/>
     <xsl:param name="number">
         <xsl:value-of select="position()"/>
@@ -951,8 +951,14 @@
         </crm:P2_has_type>
         <crm:P14_carried_out_by>
           <crm:E39_Actor>
+            <xsl:if test="owner_hist.owner/Internet_address/url">
+                <xsl:attribute name="rdf:about">
+                    <xsl:text>https://data.rkd.nl/artists</xsl:text>
+                    <xsl:value-of select="substring-after(owner_hist.owner/Internet_address/url, 'artists')"/>
+                </xsl:attribute>
+            </xsl:if>
             <rdfs:label>
-                <xsl:value-of select="."/>
+                <xsl:value-of select="owner_hist.owner/name"/>
             </rdfs:label>
           </crm:E39_Actor>
         </crm:P14_carried_out_by>
@@ -960,12 +966,12 @@
             <crm:E52_Time-Span>
                 <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
                     <xsl:call-template name="begindateconverter">
-                        <xsl:with-param name="date" select="../owner_hist.date.start[number($number)]"/>
+                        <xsl:with-param name="date" select="owner_hist.date.start"/>
                     </xsl:call-template>
                 </crm:P82a_begin_of_the_begin>
                 <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
                     <xsl:call-template name="enddateconverter">
-                        <xsl:with-param name="date" select="../owner_hist.date.start[number($number)]"/>
+                        <xsl:with-param name="date" select="owner_hist.date.start"/>
                     </xsl:call-template>
                 </crm:P82b_end_of_the_end>               
             </crm:E52_Time-Span>
@@ -993,8 +999,14 @@
                 </crm:P24_transferred_title_of>
                 <crm:P22_transferred_title_to>
                     <crm:E39_Actor>
+                        <xsl:if test="owner_hist.owner/Internet_address/url">
+                            <xsl:attribute name="rdf:about">
+                                <xsl:text>https://data.rkd.nl/artists</xsl:text>
+                                <xsl:value-of select="substring-after(owner_hist.owner/Internet_address/url, 'artists')"/>
+                            </xsl:attribute>
+                        </xsl:if>
                         <rdfs:label>
-                            <xsl:value-of select="."/>
+                            <xsl:value-of select="owner_hist.owner/name"/>
                         </rdfs:label>
                     </crm:E39_Actor>
                 </crm:P22_transferred_title_to>

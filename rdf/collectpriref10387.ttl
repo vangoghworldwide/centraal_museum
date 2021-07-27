@@ -2509,6 +2509,10 @@
     a crm:E39_Actor ;
     rdfs:label "Centraal Museum" .
 
+<https://data.rkd.nl/artists/494218>
+    a crm:E39_Actor ;
+    rdfs:label "Couvreur, J.C., Breda" .
+
 <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114>
     crm:P108i_was_produced_by <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#production> ;
     crm:P138i_has_representation <https://cmu.adlibhosting.com/webapiimages/wwwopac.ashx?command=getcontent&server=images&value=OBJECTEN/Xbestanden/gecropt/X13968_01.tif> ;
@@ -2902,10 +2906,7 @@
     a crm:E8_Acquisition .
 
 <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#acquisition-3>
-    crm:P22_transferred_title_to [
-        a crm:E39_Actor ;
-        rdfs:label "Couvreur, J.C., Breda"
-    ] ;
+    crm:P22_transferred_title_to <https://data.rkd.nl/artists/494218> ;
     crm:P24_transferred_title_of <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114> ;
     a crm:E8_Acquisition .
 
@@ -3044,10 +3045,7 @@
     a crm:E7_Activity .
 
 <https://hdl.handle.net/21.12130/collect.13C06907-A4F2-486E-BA9D-7392BD766114#provenance-3>
-    crm:P14_carried_out_by [
-        a crm:E39_Actor ;
-        rdfs:label "Couvreur, J.C., Breda"
-    ] ;
+    crm:P14_carried_out_by <https://data.rkd.nl/artists/494218> ;
     crm:P2_has_type <http://vocab.getty.edu/aat/300055863> ;
     crm:P4_has_time-span [
         crm:P82a_begin_of_the_begin "1902-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
